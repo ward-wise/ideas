@@ -26,10 +26,10 @@ kind of help before anyone builds them.
 **Build.** You write code or work with data. Pick an open idea and claim it (see below), then start from a
 template so you don't begin from a blank page:
 
-- [`ward-wise/measure-template`](https://github.com/ward-wise/measure-template) gives you an
+- [`ward-wise/ward-wise-measure-template`](https://github.com/ward-wise/ward-wise-measure-template) gives you an
   `aggregation_spec.json` skeleton, a tiny example layer and a publish workflow. Follow
   [ADDING_A_MEASURE.md](https://github.com/ward-wise/ward-wise-measures/blob/main/ADDING_A_MEASURE.md).
-- [`ward-wise/story-template`](https://github.com/ward-wise/story-template) gives you a static page that calls
+- [`ward-wise/ward-wise-story-template`](https://github.com/ward-wise/ward-wise-story-template) gives you a static page that calls
   the public API, one example chart and a GitHub Pages deploy.
 
 Both template repos are still being set up and the links above don't work yet. Until they do, start a
