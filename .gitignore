@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.DS_Store
+# The brainstorm doc export lists people and their emails. Never commit it.
+*.txt

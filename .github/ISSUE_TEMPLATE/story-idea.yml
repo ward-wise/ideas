@@ -1,0 +1,60 @@
+name: Story or dashboard idea
+description: A page, report or dashboard built from Ward Wise measures for a particular kind of person.
+title: "[Story] "
+labels: ["story-idea", "open"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A story idea starts from a person and a question, such as a block-club captain who wants a one-page
+        brief before a meeting. Check the [pages we already have](https://www.wardwise.org/reports) first.
+  - type: input
+    id: audience
+    attributes:
+      label: Who it's for
+      description: The kind of person who would use it, e.g. a block-club captain, an alderperson's staff, a new resident, a teacher.
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: The question they need answered
+      description: In their words. "Is my ward getting better or worse at the things I care about?"
+    validations:
+      required: true
+  - type: textarea
+    id: measures
+    attributes:
+      label: Measures it would use
+      description: Dictionary entries or measure ideas it would draw on. Links to https://www.wardwise.org/dictionary are best. "Not sure" is fine.
+    validations:
+      required: false
+  - type: textarea
+    id: related
+    attributes:
+      label: Related pages already on Ward Wise
+      description: Pages this would extend or replace, if any.
+    validations:
+      required: false
+  - type: input
+    id: nominator
+    attributes:
+      label: Nominator first name
+      description: Optional, for credit.
+    validations:
+      required: false
+  - type: input
+    id: ward
+    attributes:
+      label: Nominator ward
+      description: Optional.
+    validations:
+      required: false
+  - type: input
+    id: work_lives_at
+    attributes:
+      label: Work lives at
+      description: Leave blank when you open the idea. Whoever claims it fills in the URL of the page PR or the new site's repo.
+      placeholder: https://github.com/you/your-story
+    validations:
+      required: false

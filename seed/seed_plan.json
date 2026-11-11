@@ -1,0 +1,2314 @@
+{
+ "generated_at": "2026-11-11T01:35:24+00:00",
+ "model": "gpt-6-luna",
+ "reasoning_effort": "high",
+ "catalog": {
+  "sha256": "9031362c8753cd51b1f942f1d96d1a33fa2e838f741206e515865576e1442c7d",
+  "fetched_at": "2026-11-11T01:35:24+00:00",
+  "measures": 316,
+  "pages": 23
+ },
+ "llm": {
+  "calls": 12,
+  "cached": 12,
+  "new_calls": 0,
+  "cost_this_run_usd": 0.0,
+  "cost_recorded_usd": 0.0195
+ },
+ "rows": [
+  {
+   "section": "psychological_wellbeing",
+   "text": "accessibility of resources",
+   "children": [
+    {
+     "depth": 1,
+     "text": "distance to therapists"
+    },
+    {
+     "depth": 1,
+     "text": "cost of therapy"
+    },
+    {
+     "depth": 1,
+     "text": "availability of sliding-scale therapy"
+    },
+    {
+     "depth": 1,
+     "text": "insurance that covers therapy (not sure if this is available/useful)"
+    }
+   ],
+   "credits": [],
+   "kind": "measure",
+   "id": "psychological_wellbeing-01",
+   "seed_key": "0844be7082",
+   "status": "partial",
+   "matches": [
+    "mental_health_providers_per_10000_residents"
+   ],
+   "gap": "The catalog counts mental-health providers, but does not measure how far they are, therapy costs, sliding-scale availability, or whether insurance covers care.",
+   "title": "Affordable, Insurance-Covered Therapy Access",
+   "likely_source": "NPI/CMS provider data and SAMHSA treatment directories for provider locations; provider and insurer listings for costs and coverage; ACS for general insurance coverage",
+   "needs_data": true,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "Provider availability is partly represented, but affordability and practical access are not.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "8384d28a91c9a27d1144d62666df9dd43995d4e3f2992d93da1bb9f1781db442",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:psychological_wellbeing",
+    "needs-data",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "psychological_wellbeing",
+   "text": "mental health",
+   "children": [
+    {
+     "depth": 1,
+     "text": "depression statistics from hhs"
+    },
+    {
+     "depth": 1,
+     "text": "anxiety statistics from hhs (if available)"
+    },
+    {
+     "depth": 1,
+     "text": "other hhs stats of relevance"
+    },
+    {
+     "depth": 1,
+     "text": "are mental health incidents tracked in police data"
+    }
+   ],
+   "credits": [],
+   "kind": "measure",
+   "id": "psychological_wellbeing-02",
+   "seed_key": "661fcadd88",
+   "status": "partial",
+   "matches": [
+    "frequent_mental_distress_pct"
+   ],
+   "gap": "The existing measure covers frequent mental distress, not separate depression and anxiety statistics or mental-health-related police incidents.",
+   "title": "Depression, Anxiety, and Mental-Health Crisis Incidents",
+   "likely_source": "CDC PLACES and Chicago Health Atlas; Chicago Police Department calls-for-service data, if mental-health incidents are identifiable",
+   "needs_data": false,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "Frequent mental distress is related, but it does not answer the specific condition and incident questions.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "8384d28a91c9a27d1144d62666df9dd43995d4e3f2992d93da1bb9f1781db442",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:psychological_wellbeing",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "psychological_wellbeing",
+   "text": "sentiment / feeling (challenging):",
+   "children": [
+    {
+     "depth": 1,
+     "text": "social listening / social media sentiment analysis"
+    },
+    {
+     "depth": 2,
+     "text": "data access across platforms?"
+    }
+   ],
+   "credits": [],
+   "kind": "measure",
+   "id": "psychological_wellbeing-03",
+   "seed_key": "5aa8c68730",
+   "status": "partial",
+   "matches": [
+    "modeled_happiness_index",
+    "modeled_pct_very_happy"
+   ],
+   "gap": "The catalog has modeled wellbeing estimates, but no measure derived from social-media posts or comparing sentiment across platforms.",
+   "title": "Ward-Level Social-Media Sentiment",
+   "likely_source": "Public platform APIs such as Bluesky's; platform-specific public data and location metadata",
+   "needs_data": true,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "Existing happiness estimates are related to feelings but are not social-listening measures.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "8384d28a91c9a27d1144d62666df9dd43995d4e3f2992d93da1bb9f1781db442",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:psychological_wellbeing",
+    "needs-data",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "psychological_wellbeing",
+   "text": "sentiment analysis bluesky",
+   "children": [
+    {
+     "depth": 1,
+     "text": "non-representative"
+    }
+   ],
+   "credits": [],
+   "kind": "measure",
+   "id": "psychological_wellbeing-04",
+   "seed_key": "991f87b02c",
+   "status": "partial",
+   "matches": [
+    "modeled_happiness_index",
+    "modeled_pct_very_happy"
+   ],
+   "gap": "The catalog has modeled happiness estimates, but no Bluesky-derived sentiment measure; usable ward-level post locations may also be scarce.",
+   "title": "Bluesky Sentiment by Ward",
+   "likely_source": "Bluesky public API or firehose, if posts can be assigned reliable locations",
+   "needs_data": true,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "Modeled happiness is a different data source and method from Bluesky sentiment analysis.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "8384d28a91c9a27d1144d62666df9dd43995d4e3f2992d93da1bb9f1781db442",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:psychological_wellbeing",
+    "needs-data",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "psychological_wellbeing",
+   "text": "gnh.today methodology using google searches",
+   "children": [
+    {
+     "depth": 1,
+     "text": "https://link.springer.com/article/10.1007/s10902-025-00881-9"
+    },
+    {
+     "depth": 1,
+     "text": "ward-level is non-public"
+    },
+    {
+     "depth": 1,
+     "text": "surveys? quotes?"
+    }
+   ],
+   "credits": [],
+   "kind": "measure",
+   "id": "psychological_wellbeing-05",
+   "seed_key": "a21c8ac794",
+   "status": "partial",
+   "matches": [
+    "modeled_happiness_index",
+    "modeled_pct_very_happy",
+    "modeled_life_exciting_pct"
+   ],
+   "gap": "Existing measures estimate happiness from demographic circumstances, not from Google searches, local surveys, or quotes using the proposed GNH methodology.",
+   "title": "Search- or Survey-Based Wellbeing Signal",
+   "likely_source": "Google Trends; a Chicago resident survey for ward-level responses",
+   "needs_data": true,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "The catalog covers related wellbeing concepts but not the proposed search-based or survey-based method.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "8384d28a91c9a27d1144d62666df9dd43995d4e3f2992d93da1bb9f1781db442",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:psychological_wellbeing",
+    "needs-data",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "psychological_wellbeing",
+   "text": "substance use/abuse",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "psychological_wellbeing-06",
+   "seed_key": "4fa6c0eb3f",
+   "status": "partial",
+   "matches": [
+    "overdose_deaths_per_10000"
+   ],
+   "gap": "Overdose deaths capture one severe outcome, but do not measure substance use prevalence, other substances, or access to prevention and treatment.",
+   "title": "Substance-Use Prevalence and Treatment Access",
+   "likely_source": "CDPH and Cook County overdose surveillance; Chicago Health Atlas; CDC PLACES for relevant substance-use estimates",
+   "needs_data": true,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "The overdose-death measure is relevant but covers only a narrow part of substance use and its effects.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "8384d28a91c9a27d1144d62666df9dd43995d4e3f2992d93da1bb9f1781db442",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:psychological_wellbeing",
+    "needs-data",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "social_connectedness",
+   "text": "social spaces / third spaces",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "social_connectedness-01",
+   "seed_key": "d79a638138",
+   "status": "live",
+   "matches": [
+    "third_places_per_10000_residents"
+   ],
+   "gap": "",
+   "title": "Third places",
+   "likely_source": "Google Maps via Apify third-places sweeps",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "The published third-places measure counts gathering spaces such as cafés, bars and restaurants.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "50a89c1b499d348f3c101ebd9d02b1e1a6ca92c286daeac9681315719812761a",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:social_connectedness"
+   ]
+  },
+  {
+   "section": "social_connectedness",
+   "text": "businesses open past 8pm",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "social_connectedness-02",
+   "seed_key": "3068976702",
+   "status": "partial",
+   "matches": [
+    "open_late_per_10000_residents"
+   ],
+   "gap": "The existing measure covers gathering places open at 9pm on weekdays, not businesses generally open past 8pm.",
+   "title": "Businesses open past 8pm",
+   "likely_source": "Google Maps business listings and opening hours",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "Open Late is similar but uses a later cutoff and a narrower set of places.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "50a89c1b499d348f3c101ebd9d02b1e1a6ca92c286daeac9681315719812761a",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:social_connectedness"
+   ]
+  },
+  {
+   "section": "social_connectedness",
+   "text": "coffee shops",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "social_connectedness-03",
+   "seed_key": "03cc89db86",
+   "status": "live",
+   "matches": [
+    "coffee_shops_count"
+   ],
+   "gap": "",
+   "title": "Coffee shops",
+   "likely_source": "OpenStreetMap / Overpass API; Chicago business licenses (BACP)",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "The catalog already counts coffee shops in the area.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "50a89c1b499d348f3c101ebd9d02b1e1a6ca92c286daeac9681315719812761a",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:social_connectedness"
+   ]
+  },
+  {
+   "section": "social_connectedness",
+   "text": "bars",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "social_connectedness-04",
+   "seed_key": "cd601bfce0",
+   "status": "live",
+   "matches": [
+    "dedicated_bars_count",
+    "licensed_bars_per_10000_residents"
+   ],
+   "gap": "",
+   "title": "Bars",
+   "likely_source": "Google Maps via Apify third-places sweeps; Chicago business licenses (BACP)",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "Existing measures count dedicated bars and licensed taverns.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "50a89c1b499d348f3c101ebd9d02b1e1a6ca92c286daeac9681315719812761a",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:social_connectedness"
+   ]
+  },
+  {
+   "section": "social_connectedness",
+   "text": "parks",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "social_connectedness-05",
+   "seed_key": "ac9e6ccd1d",
+   "status": "live",
+   "matches": [
+    "park_count"
+   ],
+   "gap": "",
+   "title": "Parks",
+   "likely_source": "OpenStreetMap / Overpass API",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": true,
+   "reason": "The catalog includes a direct count of mapped parks.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "50a89c1b499d348f3c101ebd9d02b1e1a6ca92c286daeac9681315719812761a",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:social_connectedness",
+    "good first issue"
+   ]
+  },
+  {
+   "section": "social_connectedness",
+   "text": "walk score",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "social_connectedness-06",
+   "seed_key": "bb5c55b9ef",
+   "status": "partial",
+   "matches": [
+    "active_transportation_pct",
+    "nearest_park_miles",
+    "nearest_cta_rail_station_miles"
+   ],
+   "gap": "Existing measures cover commute mode and access to selected destinations, but not a composite score of how walkable the area is.",
+   "title": "Walkability score",
+   "likely_source": "Chicago open data and OpenStreetMap street, destination and transit networks",
+   "needs_data": false,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "The related measures do not capture overall walkability as a score.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "50a89c1b499d348f3c101ebd9d02b1e1a6ca92c286daeac9681315719812761a",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:social_connectedness",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "social_connectedness",
+   "text": "bike score",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "social_connectedness-07",
+   "seed_key": "f042cec1fc",
+   "status": "partial",
+   "matches": [
+    "bike_route_miles_per_sq_mi",
+    "active_transportation_pct",
+    "traffic_fatal_serious_injuries_count"
+   ],
+   "gap": "Existing measures cover bike-route supply, commute mode and crash harm, but not a composite measure of bikeability, including network comfort and access.",
+   "title": "Bikeability score",
+   "likely_source": "Chicago bike routes and traffic crash data; OpenStreetMap",
+   "needs_data": false,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "The catalog has related cycling measures but no overall bikeability score.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "50a89c1b499d348f3c101ebd9d02b1e1a6ca92c286daeac9681315719812761a",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:social_connectedness",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "social_connectedness",
+   "text": "unemployment",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "social_connectedness-08",
+   "seed_key": "67c46b4524",
+   "status": "new",
+   "matches": [],
+   "gap": "A ward-level unemployment rate would add a direct labor-market measure; existing income and poverty measures do not show whether residents are unemployed.",
+   "title": "Unemployment rate",
+   "likely_source": "American Community Survey 5-year estimates",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "No catalog measure directly reports unemployment.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "50a89c1b499d348f3c101ebd9d02b1e1a6ca92c286daeac9681315719812761a",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:social_connectedness"
+   ]
+  },
+  {
+   "section": "social_connectedness",
+   "text": "interaction frequency?",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "social_connectedness-09",
+   "seed_key": "1c62edcbef",
+   "status": "partial",
+   "matches": [
+    "neighbor_contact_monthly_pct",
+    "neighbor_favor_exchange_monthly_pct",
+    "modeled_weekly_friends_pct",
+    "modeled_weekly_neighbors_pct"
+   ],
+   "gap": "Existing measures cover specific neighbor contact, favors or modeled weekly socializing, but not a general measure of how often residents interact across their social circles.",
+   "title": "General social interaction frequency",
+   "likely_source": "A local resident survey; CPS Civic Engagement and Volunteering Supplement for limited related estimates",
+   "needs_data": true,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "The available measures address only particular types or modeled frequencies of interaction.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "50a89c1b499d348f3c101ebd9d02b1e1a6ca92c286daeac9681315719812761a",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:social_connectedness",
+    "needs-data",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "material_wellbeing",
+   "text": "incomes",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "material_wellbeing-01",
+   "seed_key": "bfdb70c426",
+   "status": "live",
+   "matches": [
+    "median_household_income",
+    "median_household_income_1yr",
+    "avg_agi_per_return_usd"
+   ],
+   "gap": "",
+   "title": "Neighborhood incomes",
+   "likely_source": "American Community Survey; IRS Statistics of Income",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "The catalog already reports household income and income per tax return.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "b9fb36a6e46467895a1921fa5ed223b72e57dac4944449d0d76934f96b8891c6",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:material_wellbeing"
+   ]
+  },
+  {
+   "section": "material_wellbeing",
+   "text": "cpi",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "material_wellbeing-02",
+   "seed_key": "14f73584c6",
+   "status": "new",
+   "matches": [],
+   "gap": "A consumer price index would track price changes, which the existing income and rent measures do not. Public inflation data is not available at ward geography.",
+   "title": "Ward-level cost inflation",
+   "likely_source": "Bureau of Labor Statistics CPI for the Chicago-Naperville-Elgin metro area",
+   "needs_data": true,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "The available CPI is regional rather than ward-level, and no existing measure tracks local inflation.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "b9fb36a6e46467895a1921fa5ed223b72e57dac4944449d0d76934f96b8891c6",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:material_wellbeing",
+    "needs-data",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "material_wellbeing",
+   "text": "vacant land",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "material_wellbeing-03",
+   "seed_key": "6d815278cb",
+   "status": "partial",
+   "matches": [
+    "city_owned_parcels_per_sq_mi"
+   ],
+   "gap": "The catalog counts city-owned parcels, most of which are vacant, but misses vacant land owned by others.",
+   "title": "All vacant land, not just city-owned parcels",
+   "likely_source": "Cook County Assessor parcel records; Chicago City-Owned Land Inventory",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "The city-owned parcel measure is a useful proxy but does not cover all vacant land.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "b9fb36a6e46467895a1921fa5ed223b72e57dac4944449d0d76934f96b8891c6",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:material_wellbeing"
+   ]
+  },
+  {
+   "section": "material_wellbeing",
+   "text": "rents / costs",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "material_wellbeing-04",
+   "seed_key": "931c51e5a2",
+   "status": "partial",
+   "matches": [
+    "median_gross_rent",
+    "observed_asking_rent_usd",
+    "rent_burdened_households_pct"
+   ],
+   "gap": "Existing measures cover rents and rent burden, but not other household costs such as food, utilities, or transportation.",
+   "title": "Non-housing household costs",
+   "likely_source": "American Community Survey; Bureau of Labor Statistics",
+   "needs_data": true,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "The catalog covers housing costs but not the broader costs implied by the idea.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "b9fb36a6e46467895a1921fa5ed223b72e57dac4944449d0d76934f96b8891c6",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:material_wellbeing",
+    "needs-data",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "material_wellbeing",
+   "text": "job openings",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "material_wellbeing-05",
+   "seed_key": "1c2ed2fb39",
+   "status": "new",
+   "matches": [],
+   "gap": "The catalog has no measure of current job vacancies; employment or business counts would not show openings.",
+   "title": "Job openings",
+   "likely_source": "Illinois Department of Employment Security labor-market data",
+   "needs_data": true,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "No existing measure counts job vacancies, and public vacancy data is not plausibly available by ward.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "b9fb36a6e46467895a1921fa5ed223b72e57dac4944449d0d76934f96b8891c6",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:material_wellbeing",
+    "needs-data"
+   ]
+  },
+  {
+   "section": "material_wellbeing",
+   "text": "tax burden",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "material_wellbeing-06",
+   "seed_key": "27e0e968fa",
+   "status": "new",
+   "matches": [],
+   "gap": "A tax-burden measure would compare taxes paid with income or another household resource; the catalog has no tax measure.",
+   "title": "Household tax burden",
+   "likely_source": "Cook County Treasurer; Cook County Assessor; American Community Survey",
+   "needs_data": false,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "Public property-tax and income records could support a ward-level measure, but the catalog has none.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "b9fb36a6e46467895a1921fa5ed223b72e57dac4944449d0d76934f96b8891c6",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:material_wellbeing",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "material_wellbeing",
+   "text": "landlord rent share - https://github.com/smacmullan/nws-property-ownership-analysis",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "material_wellbeing-07",
+   "seed_key": "61b1ed0585",
+   "status": "partial",
+   "matches": [
+    "landlord_profit_share_pct",
+    "landlord_profit_share_actual_pct",
+    "absentee_owner_share_pct"
+   ],
+   "gap": "Existing measures estimate landlord profit or absentee ownership, but do not directly report the share of neighborhood rent revenue captured by property owners.",
+   "title": "Share of rent captured by property owners",
+   "likely_source": "Cook County Assessor and Recorder records; American Community Survey",
+   "needs_data": false,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "The landlord measures are close, but profit share and absentee ownership are not the same as rent share.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "b9fb36a6e46467895a1921fa5ed223b72e57dac4944449d0d76934f96b8891c6",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:material_wellbeing",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "material_wellbeing",
+   "text": "cost of living",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "material_wellbeing-08",
+   "seed_key": "8192fb5791",
+   "status": "partial",
+   "matches": [
+    "median_gross_rent",
+    "observed_asking_rent_usd",
+    "rent_burdened_households_pct",
+    "median_household_income"
+   ],
+   "gap": "The catalog covers rent and income but not a broader household expense basket or overall cost-of-living index.",
+   "title": "Ward-level cost-of-living index",
+   "likely_source": "American Community Survey; Bureau of Labor Statistics",
+   "needs_data": true,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "Existing housing-cost measures do not answer the broader cost-of-living idea.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "b9fb36a6e46467895a1921fa5ed223b72e57dac4944449d0d76934f96b8891c6",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:material_wellbeing",
+    "needs-data",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "material_wellbeing",
+   "text": "number of new housing built",
+   "children": [],
+   "credits": [
+    {
+     "name": "Scott"
+    }
+   ],
+   "kind": "measure",
+   "id": "material_wellbeing-09",
+   "seed_key": "7355a89132",
+   "status": "partial",
+   "matches": [
+    "new_residential_units_permitted_est",
+    "new_residential_construction_permits_count"
+   ],
+   "gap": "The catalog counts or estimates permitted housing, not homes actually completed and added to the housing stock.",
+   "title": "Completed new housing units",
+   "likely_source": "Chicago Department of Buildings permits and certificates of occupancy",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "Permits are a close indicator but do not establish that housing was built.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "b9fb36a6e46467895a1921fa5ed223b72e57dac4944449d0d76934f96b8891c6",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:material_wellbeing"
+   ]
+  },
+  {
+   "section": "material_wellbeing",
+   "text": "cost of developing a lot",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "material_wellbeing-10",
+   "seed_key": "8d8203eaaa",
+   "status": "new",
+   "matches": [],
+   "gap": "No catalog measure estimates the costs of preparing and developing a lot; sale prices and zoning capacity are not development costs.",
+   "title": "Cost of developing a lot",
+   "likely_source": "Chicago Department of Buildings permits and fees; Cook County Assessor",
+   "needs_data": true,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "The catalog has no measure of actual lot development costs.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "b9fb36a6e46467895a1921fa5ed223b72e57dac4944449d0d76934f96b8891c6",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:material_wellbeing",
+    "needs-data",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "material_wellbeing",
+   "text": "safety",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "material_wellbeing-11",
+   "seed_key": "cbdce8f25a",
+   "status": "partial",
+   "matches": [
+    "violent_crime_rate_per_10000",
+    "property_crime_rate_per_10000",
+    "modeled_fear_walking_pct",
+    "traffic_fatal_serious_injuries_count"
+   ],
+   "gap": "Existing measures cover crime, modeled fear of walking at night, and serious traffic harms, but not a broader, clearly defined view of neighborhood safety.",
+   "title": "Broader neighborhood safety measure",
+   "likely_source": "Chicago Police Department; Chicago traffic crash data; Chicago Health Atlas",
+   "needs_data": false,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "Several safety dimensions are live, but no single measure answers the broad idea as stated.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "b9fb36a6e46467895a1921fa5ed223b72e57dac4944449d0d76934f96b8891c6",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:material_wellbeing",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "material_wellbeing",
+   "text": "access to resources (grocery stores, transit, noise, bike line)",
+   "children": [],
+   "credits": [
+    {
+     "name": "Sandra"
+    }
+   ],
+   "kind": "measure",
+   "id": "material_wellbeing-12",
+   "seed_key": "70e741c118",
+   "status": "partial",
+   "matches": [
+    "nearest_grocery_miles",
+    "nearest_cta_rail_station_miles",
+    "noise_complaints_per_10000",
+    "bike_route_miles_per_sq_mi"
+   ],
+   "gap": "The catalog covers grocery proximity, rail access, noise complaints, and bike-route supply, but not access to bus service or a combined resource-access measure.",
+   "title": "Bus transit access",
+   "likely_source": "Chicago Transit Authority bus stops and routes; Chicago Data Portal",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": true,
+   "reason": "Most listed examples have close measures, while bus access is the clear missing transit variant.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "b9fb36a6e46467895a1921fa5ed223b72e57dac4944449d0d76934f96b8891c6",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:material_wellbeing",
+    "good first issue"
+   ]
+  },
+  {
+   "section": "material_wellbeing",
+   "text": "inundation modeling with LIDAR?",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "material_wellbeing-13",
+   "seed_key": "efaac0f5c4",
+   "status": "partial",
+   "matches": [
+    "flooding_complaints_per_10000_residents",
+    "basement_flooding_complaints_per_10000_residents",
+    "street_flooding_complaints_per_10000_residents"
+   ],
+   "gap": "The existing measures count reported flooding complaints, not modeled inundation extent or depth using elevation data.",
+   "title": "LiDAR-based inundation risk",
+   "likely_source": "Cook County LiDAR; Chicago Department of Water Management; Metropolitan Water Reclamation District",
+   "needs_data": false,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "Flooding complaints are a nearby indicator but do not model where water would inundate land.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "b9fb36a6e46467895a1921fa5ed223b72e57dac4944449d0d76934f96b8891c6",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:material_wellbeing",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "health",
+   "text": "insurance coverage",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "health-01",
+   "seed_key": "4380416893",
+   "status": "live",
+   "matches": [
+    "uninsured_pct"
+   ],
+   "gap": "",
+   "title": "Insurance coverage",
+   "likely_source": "American Community Survey",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "The uninsured share directly indicates the share of residents without insurance coverage.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "27fcf17b0ffa370f84b6dded6d0498447fa722f0f5f6a763159ed27abdc99cc6",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:health"
+   ]
+  },
+  {
+   "section": "health",
+   "text": "how far to the doctor",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "health-02",
+   "seed_key": "892805dac4",
+   "status": "partial",
+   "matches": [
+    "mental_health_providers_per_10000_residents"
+   ],
+   "gap": "The existing measure counts mental-health providers, not general doctors or how far residents travel to reach one. A new measure could estimate distance to primary-care doctors.",
+   "title": "Distance to primary-care doctors",
+   "likely_source": "CMS National Plan and Provider Enumeration System (NPPES) provider locations",
+   "needs_data": false,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "A nearby provider-count measure exists, but it does not answer distance to general doctors.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "27fcf17b0ffa370f84b6dded6d0498447fa722f0f5f6a763159ed27abdc99cc6",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:health",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "health",
+   "text": "homicide rate",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "health-03",
+   "seed_key": "0c90ceced8",
+   "status": "live",
+   "matches": [
+    "homicide_victims_per_10000"
+   ],
+   "gap": "",
+   "title": "Homicide rate",
+   "likely_source": "Chicago Police violence reduction victims data",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "The catalog already reports homicide victims per 10,000 residents.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "27fcf17b0ffa370f84b6dded6d0498447fa722f0f5f6a763159ed27abdc99cc6",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:health"
+   ]
+  },
+  {
+   "section": "time_balance",
+   "text": "time use",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "time_balance-01",
+   "seed_key": "62323943c4",
+   "status": "partial",
+   "matches": [
+    "modeled_leisure_minutes",
+    "modeled_time_poverty_pct"
+   ],
+   "gap": "Existing measures estimate leisure time and time poverty, but do not describe residents’ broader daily time use or provide observed local time-use data.",
+   "title": "Daily time use measured directly",
+   "likely_source": "American Time Use Survey (U.S. Bureau of Labor Statistics)",
+   "needs_data": true,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "The catalog has modeled time-use indicators, but not a direct, comprehensive measure of local time use.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "a4ba21f8859dafa0b3b6487e9cf38f3cd1340441ad0fe521495df14c1c991ede",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:time_balance",
+    "needs-data",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "time_balance",
+   "text": "how far to transit",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "time_balance-02",
+   "seed_key": "fb861bee32",
+   "status": "partial",
+   "matches": [
+    "nearest_cta_rail_station_miles"
+   ],
+   "gap": "The existing measure covers distance to CTA rail, but not access to other transit such as bus stops.",
+   "title": "Distance to nearest transit stop",
+   "likely_source": "Chicago Transit Authority bus and rail stop locations",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": true,
+   "reason": "Distance to the nearest rail station is covered, but it does not represent access to transit generally.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "a4ba21f8859dafa0b3b6487e9cf38f3cd1340441ad0fe521495df14c1c991ede",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:time_balance",
+    "good first issue"
+   ]
+  },
+  {
+   "section": "time_balance",
+   "text": "accessibility of childcare",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "time_balance-03",
+   "seed_key": "21eb616bd7",
+   "status": "partial",
+   "matches": [
+    "licensed_child_care_per_10000_residents",
+    "childcare_per_10000_residents"
+   ],
+   "gap": "Existing measures count child-care establishments per capita, but do not show residents’ proximity to centers or whether centers have available places.",
+   "title": "Distance to nearest child-care center",
+   "likely_source": "Illinois Department of Children and Family Services licensed child-care provider data",
+   "needs_data": false,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "The catalog measures child-care supply, not geographic or usable access.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "a4ba21f8859dafa0b3b6487e9cf38f3cd1340441ad0fe521495df14c1c991ede",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:time_balance",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "religion_spiritual",
+   "text": "distance to house of worship",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "religion_spiritual-01",
+   "seed_key": "a27877d7e3",
+   "status": "live",
+   "matches": [
+    "nearest_worship_miles"
+   ],
+   "gap": "",
+   "title": "Distance to a place of worship",
+   "likely_source": "OpenStreetMap / Overpass API",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": true,
+   "reason": "The existing measure estimates distance to the nearest place of worship.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "0255d017bc327d046805f14b1484b59c18b006e4cb01d6d0c011c82d147e7f42",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:religion_spiritual",
+    "good first issue"
+   ]
+  },
+  {
+   "section": "religion_spiritual",
+   "text": "feeling of purpose",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "religion_spiritual-02",
+   "seed_key": "c00d1aa98e",
+   "status": "partial",
+   "matches": [
+    "modeled_happiness_index",
+    "modeled_life_exciting_pct"
+   ],
+   "gap": "Existing measures estimate happiness and whether life feels exciting, but do not capture whether residents feel a sense of purpose.",
+   "title": "Residents who feel a sense of purpose",
+   "likely_source": "Chicago Health Atlas / Healthy Chicago Survey, if a purpose question is available",
+   "needs_data": true,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "Purpose is related to subjective wellbeing, but the catalog has no measure of purpose itself.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "0255d017bc327d046805f14b1484b59c18b006e4cb01d6d0c011c82d147e7f42",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:religion_spiritual",
+    "needs-data",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "religion_spiritual",
+   "text": "non-worship faith associated spaces/businesses",
+   "children": [],
+   "credits": [
+    {
+     "name": "Josh",
+     "ward": "49"
+    }
+   ],
+   "kind": "measure",
+   "id": "religion_spiritual-03",
+   "seed_key": "326fcd7a2d",
+   "status": "partial",
+   "matches": [
+    "faith_institution_count",
+    "worship_places_per_10000_residents"
+   ],
+   "gap": "The existing measures cover faith institutions and places of worship, not faith-associated spaces or businesses that are not used for worship.",
+   "title": "Non-worship faith-associated spaces and businesses",
+   "likely_source": "OpenStreetMap / Overpass API; Chicago business licenses",
+   "needs_data": false,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "Worship-place measures are adjacent, but the idea calls for a distinct category of non-worship sites.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "0255d017bc327d046805f14b1484b59c18b006e4cb01d6d0c011c82d147e7f42",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:religion_spiritual",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "religion_spiritual",
+   "text": "historic weight/sus",
+   "children": [],
+   "credits": [
+    {
+     "name": "Josh",
+     "ward": "49"
+    }
+   ],
+   "kind": "measure",
+   "id": "religion_spiritual-04",
+   "seed_key": "506dc52ac4",
+   "status": "partial",
+   "matches": [
+    "chrs_historic_buildings_count",
+    "designated_landmarks_count",
+    "nrhp_listings_count"
+   ],
+   "gap": "The catalog has general historic-building and landmark counts, but no measure of the historical significance of faith-associated places; the idea's intended meaning also needs clarification.",
+   "title": "Historic significance of faith-associated places",
+   "likely_source": "Chicago Historic Resources Survey; Chicago Landmarks; National Register of Historic Places",
+   "needs_data": false,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "General historic-site measures are related, but they do not isolate or define the faith-related historical dimension.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "0255d017bc327d046805f14b1484b59c18b006e4cb01d6d0c011c82d147e7f42",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:religion_spiritual",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "lifelong_learning",
+   "text": "how far to schools",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "lifelong_learning-01",
+   "seed_key": "b08490b993",
+   "status": "partial",
+   "matches": [
+    "nearest_school_miles"
+   ],
+   "gap": "The existing measure covers distance to public schools, not schools of all types. Add private schools or clearly distinguish the school types covered.",
+   "title": "Distance to all schools",
+   "likely_source": "CPS and NCES school directories, including the Private School Universe Survey",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": true,
+   "reason": "The catalog measures distance to the nearest public school, but not schools generally.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "01941d830234c2809e268bc00672f4b0593fe874007a0b8c0ab86c2322f1870b",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:lifelong_learning",
+    "good first issue"
+   ]
+  },
+  {
+   "section": "lifelong_learning",
+   "text": "school quality / school ratings (zillow style)",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "lifelong_learning-02",
+   "seed_key": "9ce9570634",
+   "status": "partial",
+   "matches": [
+    "school_proficiency_pct",
+    "chronic_absenteeism_pct",
+    "per_pupil_spending"
+   ],
+   "gap": "These measures cover individual school outcomes and spending, but do not provide a user-friendly overall school rating. A new measure would need to define how ratings are constructed and presented.",
+   "title": "School quality ratings",
+   "likely_source": "Illinois Report Card / CPS",
+   "needs_data": false,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "Existing school measures are related inputs, not a Zillow-style rating.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "01941d830234c2809e268bc00672f4b0593fe874007a0b8c0ab86c2322f1870b",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:lifelong_learning",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "lifelong_learning",
+   "text": "highest level of edu achievement",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "lifelong_learning-03",
+   "seed_key": "eddff76628",
+   "status": "partial",
+   "matches": [
+    "educational_attainment_bachelors_plus_pct"
+   ],
+   "gap": "The existing measure reports only the share of adults with a bachelor's degree or higher. Add the distribution across highest education levels attained.",
+   "title": "Educational attainment by highest level",
+   "likely_source": "American Community Survey 5-year estimates",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "The catalog has a bachelor's-or-higher share, not attainment levels across the population.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "01941d830234c2809e268bc00672f4b0593fe874007a0b8c0ab86c2322f1870b",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:lifelong_learning"
+   ]
+  },
+  {
+   "section": "good_governance",
+   "text": "voter participation rate",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "good_governance-01",
+   "seed_key": "070fb087e5",
+   "status": "live",
+   "matches": [
+    "voter_turnout_pct"
+   ],
+   "gap": "",
+   "title": "Voter participation rate",
+   "likely_source": "Chicago municipal election results; Chicago Board of Elections",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "The catalog already measures ballots cast as a share of registered voters.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "5ba1e3e51577d090de40365016115f678d041905a3329ab159a95acd55b27bc5",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:good_governance"
+   ]
+  },
+  {
+   "section": "good_governance",
+   "text": "participatory budgeting",
+   "children": [
+    {
+     "depth": 1,
+     "text": "number of votes/participants"
+    },
+    {
+     "depth": 1,
+     "text": "number of project ideas"
+    }
+   ],
+   "credits": [],
+   "kind": "measure",
+   "id": "good_governance-02",
+   "seed_key": "948dc1ba97",
+   "status": "partial",
+   "matches": [
+    "participatory_budgeting"
+   ],
+   "gap": "The existing measure records whether participatory budgeting is used, not how many people vote or submit project ideas. A new measure would add those participation counts.",
+   "title": "Participatory budgeting votes and project ideas",
+   "likely_source": "UIC Great Cities Institute, Chicago ward records, and City of Chicago participatory budgeting records",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "The catalog covers the presence of participatory budgeting but not its participation or idea counts.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "5ba1e3e51577d090de40365016115f678d041905a3329ab159a95acd55b27bc5",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:good_governance"
+   ]
+  },
+  {
+   "section": "good_governance",
+   "text": "alderman performance",
+   "children": [
+    {
+     "depth": 1,
+     "text": "service delivery"
+    },
+    {
+     "depth": 2,
+     "text": "311 requests?"
+    },
+    {
+     "depth": 2,
+     "text": "speed of 311 response"
+    },
+    {
+     "depth": 1,
+     "text": "legislative performance: https://chicago.councilmatic.org/"
+    },
+    {
+     "depth": 2,
+     "text": "attendance"
+    },
+    {
+     "depth": 2,
+     "text": "bills submitted"
+    }
+   ],
+   "credits": [
+    {
+     "name": "Scott"
+    },
+    {
+     "name": "Connor"
+    }
+   ],
+   "kind": "measure",
+   "id": "good_governance-03",
+   "seed_key": "950eaced27",
+   "status": "partial",
+   "matches": [
+    "c311_service_response_days",
+    "council_attendance_pct",
+    "nonroutine_bills_sponsored_current_session"
+   ],
+   "gap": "Existing measures cover 311 response time, attendance, and bills sponsored, but not 311 request volume or a defined way to assess overall alder performance. A scorecard would need clear, fair criteria for combining these dimensions.",
+   "title": "Alder service-delivery and legislative scorecard",
+   "likely_source": "Chicago 311 service requests and Chicago Councilmatic",
+   "needs_data": false,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "Several listed performance dimensions are measured, but request volume and a defensible overall assessment are not.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "5ba1e3e51577d090de40365016115f678d041905a3329ab159a95acd55b27bc5",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:good_governance",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "good_governance",
+   "text": "TIF funds used",
+   "children": [
+    {
+     "depth": 1,
+     "text": "performance metric"
+    }
+   ],
+   "credits": [
+    {
+     "name": "Ryan"
+    }
+   ],
+   "kind": "measure",
+   "id": "good_governance-04",
+   "seed_key": "539e36c82c",
+   "status": "new",
+   "matches": [],
+   "gap": "The catalog has no measure of TIF revenue, spending, or results. A new measure could track how TIF funds are spent and define a transparent performance outcome.",
+   "title": "TIF spending and outcomes",
+   "likely_source": "City of Chicago TIF district financial reports and Department of Finance data",
+   "needs_data": false,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "No catalog measure tracks TIF funds or evaluates their use.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "5ba1e3e51577d090de40365016115f678d041905a3329ab159a95acd55b27bc5",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:good_governance",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "good_governance",
+   "text": "traffic study data on the transportation website (CDOT/ Illinois DOT)",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "good_governance-05",
+   "seed_key": "1252db012a",
+   "status": "partial",
+   "matches": [
+    "ej_traffic_proximity",
+    "pedestrian_cyclist_crashes_count",
+    "traffic_crash_injuries_count"
+   ],
+   "gap": "The catalog has traffic proximity and crash measures, but not traffic-study counts such as vehicle volumes or speeds. A new measure could summarize CDOT or IDOT traffic study data by ward.",
+   "title": "Traffic volumes and speeds from traffic studies",
+   "likely_source": "Chicago CDOT traffic counts and Illinois DOT traffic count data",
+   "needs_data": false,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "Existing traffic-related measures cover exposure and crashes, not the traffic-study data requested.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "5ba1e3e51577d090de40365016115f678d041905a3329ab159a95acd55b27bc5",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:good_governance",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "community_vitality",
+   "text": "gentrification / turnover of homes, neighborhood changes",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "community_vitality-01",
+   "seed_key": "297fc49e83",
+   "status": "partial",
+   "matches": [
+    "real_estate_sales_usd",
+    "absentee_owner_share_pct",
+    "business_openings_per_10000_residents",
+    "business_closures_per_10000_residents",
+    "median_gross_rent"
+   ],
+   "gap": "These measures show related sales, ownership, business, and rent changes, but none directly measures residential turnover or displacement and neighborhood change as a whole.",
+   "title": "Residential turnover and neighborhood change",
+   "likely_source": "Cook County Assessor parcel sales; ACS; Chicago business licenses (BACP)",
+   "needs_data": false,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "Several existing measures capture facets of neighborhood change but not the stated combined concept.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "3ba54003fc979374109c084bd1ad16a1fad823015470ff72dff77ca0d2335fac",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:community_vitality",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "community_vitality",
+   "text": "rate of change in property taxes",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "community_vitality-02",
+   "seed_key": "3734b6d184",
+   "status": "new",
+   "matches": [],
+   "gap": "The catalog has no measure of property-tax bills or how they change over time; property assessments and landlord estimates are not tax changes.",
+   "title": "Property tax change rate",
+   "likely_source": "Cook County Treasurer property tax bills; Cook County Assessor",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "No existing measure tracks property-tax amounts or their rate of change.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "3ba54003fc979374109c084bd1ad16a1fad823015470ff72dff77ca0d2335fac",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:community_vitality"
+   ]
+  },
+  {
+   "section": "community_vitality",
+   "text": "beauty",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "community_vitality-03",
+   "seed_key": "ddf8fac9c2",
+   "status": "new",
+   "matches": [],
+   "gap": "Existing place and historic-building counts do not measure residents’ perceptions of beauty; a new measure would need a defined rating approach.",
+   "title": "Neighborhood beauty rating",
+   "likely_source": "Google Street View imagery; resident survey",
+   "needs_data": true,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "Beauty is a subjective concept not measured by any catalog indicator.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "3ba54003fc979374109c084bd1ad16a1fad823015470ff72dff77ca0d2335fac",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:community_vitality",
+    "needs-data",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "community_vitality",
+   "text": "architectural styles",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "community_vitality-04",
+   "seed_key": "645f0ea993",
+   "status": "partial",
+   "matches": [
+    "chrs_historic_buildings_count",
+    "designated_landmarks_count",
+    "nrhp_listings_count"
+   ],
+   "gap": "The catalog counts surveyed historic buildings and designated landmarks, but does not classify architectural styles across the building stock.",
+   "title": "Architectural style inventory",
+   "likely_source": "Chicago Historic Resources Survey; Cook County Assessor",
+   "needs_data": false,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "Existing historic-building inventories are related but do not describe styles across buildings generally.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "3ba54003fc979374109c084bd1ad16a1fad823015470ff72dff77ca0d2335fac",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:community_vitality",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "community_vitality",
+   "text": "foot traffic",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "community_vitality-05",
+   "seed_key": "71d1ab4c62",
+   "status": "partial",
+   "matches": [
+    "cta_l_station_entries",
+    "divvy_rides_count"
+   ],
+   "gap": "Transit entries and Divvy trips are activity proxies, not counts of people walking through neighborhood streets and commercial corridors.",
+   "title": "Pedestrian foot traffic",
+   "likely_source": "Chicago Department of Transportation pedestrian counts; Chicago Data Portal",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "Existing mobility measures miss direct counts of pedestrian activity.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "3ba54003fc979374109c084bd1ad16a1fad823015470ff72dff77ca0d2335fac",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:community_vitality"
+   ]
+  },
+  {
+   "section": "community_vitality",
+   "text": "well-maintainedness of properties using google street map views",
+   "children": [],
+   "credits": [
+    {
+     "name": "Aakash"
+    }
+   ],
+   "kind": "measure",
+   "id": "community_vitality-06",
+   "seed_key": "b3cd0729c6",
+   "status": "partial",
+   "matches": [
+    "building_violations_per_10000",
+    "building_violation_complaints_per_10000_residents"
+   ],
+   "gap": "Violations and complaints capture reported or cited problems, not the visible upkeep of properties in street imagery.",
+   "title": "Visible property maintenance",
+   "likely_source": "Google Street View imagery; Chicago Department of Buildings",
+   "needs_data": true,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "Code records are related proxies but do not rate visible property condition.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "3ba54003fc979374109c084bd1ad16a1fad823015470ff72dff77ca0d2335fac",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:community_vitality",
+    "needs-data",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "community_vitality",
+   "text": "chain vs non-chain percentage of businesses",
+   "children": [],
+   "credits": [
+    {
+     "name": "Debbie"
+    }
+   ],
+   "kind": "measure",
+   "id": "community_vitality-07",
+   "seed_key": "7bdee998fb",
+   "status": "partial",
+   "matches": [
+    "licensed_chain_restaurant_share_pct",
+    "licensed_chain_store_share_pct",
+    "licensed_major_chain_restaurant_share_pct",
+    "licensed_major_chain_store_share_pct"
+   ],
+   "gap": "Existing chain shares cover restaurants and food stores, but not the full range of businesses in a ward.",
+   "title": "Chain share across all businesses",
+   "likely_source": "Chicago business licenses (BACP)",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "The catalog measures chain status for food businesses, not businesses overall.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "3ba54003fc979374109c084bd1ad16a1fad823015470ff72dff77ca0d2335fac",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:community_vitality"
+   ]
+  },
+  {
+   "section": "community_vitality",
+   "text": "survey question: comfortable asking for a stick of butter from a neighbor",
+   "children": [],
+   "credits": [
+    {
+     "name": "Judy"
+    }
+   ],
+   "kind": "measure",
+   "id": "community_vitality-08",
+   "seed_key": "0429791827",
+   "status": "partial",
+   "matches": [
+    "neighbor_favor_exchange_monthly_pct",
+    "neighbor_contact_monthly_pct"
+   ],
+   "gap": "Neighbor favor exchange and contact are related, but do not directly measure whether someone feels comfortable asking a neighbor for a small favor.",
+   "title": "Comfort asking neighbors for small favors",
+   "likely_source": "CPS Civic Engagement and Volunteering Supplement; Chicago Health Atlas",
+   "needs_data": true,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "Existing neighbor measures do not capture comfort asking for help.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "3ba54003fc979374109c084bd1ad16a1fad823015470ff72dff77ca0d2335fac",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:community_vitality",
+    "needs-data",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "community_vitality",
+   "text": "survey question: trust of your neighbors",
+   "children": [],
+   "credits": [
+    {
+     "name": "Judy"
+    }
+   ],
+   "kind": "measure",
+   "id": "community_vitality-09",
+   "seed_key": "89c993c69e",
+   "status": "partial",
+   "matches": [
+    "modeled_social_trust_pct",
+    "social_capital_cohesion_index"
+   ],
+   "gap": "The catalog has modeled generalized trust and a social-cohesion proxy, but not direct trust in one’s neighbors.",
+   "title": "Trust in neighbors",
+   "likely_source": "Chicago Health Atlas / Healthy Chicago Survey; General Social Survey",
+   "needs_data": true,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "Generalized trust and cohesion are not the same as neighbor-specific trust.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "3ba54003fc979374109c084bd1ad16a1fad823015470ff72dff77ca0d2335fac",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:community_vitality",
+    "needs-data",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "community_vitality",
+   "text": "meetups platform",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "community_vitality-10",
+   "seed_key": "f0f1b9c22c",
+   "status": "new",
+   "matches": [],
+   "gap": "The catalog does not measure local meetup groups, events, or platform activity; venue and park-program counts do not show whether people organize or attend meetups.",
+   "title": "Community meetup activity",
+   "likely_source": "Meetup.com public event listings; Chicago Park District and Chicago Public Library event listings",
+   "needs_data": true,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "No current measure captures organized meetup activity or use of a meetup platform.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "3ba54003fc979374109c084bd1ad16a1fad823015470ff72dff77ca0d2335fac",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:community_vitality",
+    "needs-data",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "community_vitality",
+   "text": "residential rootedness (how long have they lived where they live, ACS has this?)",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "community_vitality-11",
+   "seed_key": "60a76fb707",
+   "status": "new",
+   "matches": [],
+   "gap": "No catalog measure reports how long residents have lived in their current homes; ACS tenure-duration data could support a new ward-level measure.",
+   "title": "Residential tenure duration",
+   "likely_source": "American Community Survey 5-year estimates (table B25038)",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "The catalog has no measure of residents’ length of residence.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "3ba54003fc979374109c084bd1ad16a1fad823015470ff72dff77ca0d2335fac",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:community_vitality"
+   ]
+  },
+  {
+   "section": "community_vitality",
+   "text": "Institutional trust (GSS, Confidence in institutions, generalized trust)",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "community_vitality-12",
+   "seed_key": "bc33fe3c34",
+   "status": "partial",
+   "matches": [
+    "modeled_social_trust_pct"
+   ],
+   "gap": "The existing modeled measure covers generalized trust, but not confidence in institutions such as government, police, or media.",
+   "title": "Confidence in institutions",
+   "likely_source": "General Social Survey; small-area estimates using ACS covariates",
+   "needs_data": false,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "The generalized-trust part is represented, while institutional confidence is missing.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "3ba54003fc979374109c084bd1ad16a1fad823015470ff72dff77ca0d2335fac",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:community_vitality",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "community_vitality",
+   "text": "Neighborliness / mutual aid (CPS CEV - Informal helping, favors for neighbors, neighbor contact)",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "community_vitality-13",
+   "seed_key": "b0daded922",
+   "status": "partial",
+   "matches": [
+    "neighbor_contact_monthly_pct",
+    "neighbor_favor_exchange_monthly_pct",
+    "neighbor_collective_action_pct"
+   ],
+   "gap": "The catalog covers neighbor contact, exchanged favors, and collective action, but not informal helping more broadly.",
+   "title": "Informal neighbor help beyond favors and contact",
+   "likely_source": "CPS Civic Engagement and Volunteering Supplement; ACS covariates",
+   "needs_data": false,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "Existing neighbor measures cover several listed variants but not informal help as a broader category.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "3ba54003fc979374109c084bd1ad16a1fad823015470ff72dff77ca0d2335fac",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:community_vitality",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "community_vitality",
+   "text": "cook county recorder of deeds - real estate transfers (pdfs for each contract)",
+   "children": [],
+   "credits": [
+    {
+     "name": "Phil"
+    }
+   ],
+   "kind": "measure",
+   "id": "community_vitality-14",
+   "seed_key": "df02efcabe",
+   "status": "partial",
+   "matches": [
+    "real_estate_sales_usd"
+   ],
+   "gap": "The catalog reports annual sale dollars, but not a count or accessible record-level view of real-estate transfers and their deeds or contracts.",
+   "title": "Real estate transfer records and counts",
+   "likely_source": "Cook County Clerk Recorder of Deeds; Cook County Assessor parcel sales",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "Recorded sale dollars are related but do not provide the transfer records or counts described.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "3ba54003fc979374109c084bd1ad16a1fad823015470ff72dff77ca0d2335fac",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:community_vitality"
+   ]
+  },
+  {
+   "section": "physical_environment",
+   "text": "distance to park",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "physical_environment-01",
+   "seed_key": "495cf85975",
+   "status": "live",
+   "matches": [
+    "nearest_park_miles"
+   ],
+   "gap": "",
+   "title": "Distance to nearest park",
+   "likely_source": "Chicago Park District parks data / mapped park locations",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": true,
+   "reason": "The catalog already measures distance to the nearest park.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "eecec478d82cf57194e8dc10af5f13101ce3c487e3e4808d17a89bf642a9a791",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:physical_environment",
+    "good first issue"
+   ]
+  },
+  {
+   "section": "physical_environment",
+   "text": "safety of parks",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "physical_environment-02",
+   "seed_key": "228714d7ed",
+   "status": "partial",
+   "matches": [
+    "modeled_fear_walking_pct"
+   ],
+   "gap": "The existing measure estimates fear of walking near home at night, not safety within parks. A park-specific measure could use incidents in park areas and/or park conditions such as lighting.",
+   "title": "Safety within parks",
+   "likely_source": "Chicago Police Department crime records and Chicago Park District park data",
+   "needs_data": false,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "A general perceived-safety estimate is related but does not assess safety in parks.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "eecec478d82cf57194e8dc10af5f13101ce3c487e3e4808d17a89bf642a9a791",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:physical_environment",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "physical_environment",
+   "text": "vacant lots",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "physical_environment-03",
+   "seed_key": "08658faf90",
+   "status": "partial",
+   "matches": [
+    "city_owned_parcels_per_sq_mi",
+    "vacant_lot_cleanup_requests_per_10000_residents"
+   ],
+   "gap": "Existing measures cover city-owned parcels or cleanup requests, not all vacant lots. A new measure could identify vacant parcels regardless of ownership.",
+   "title": "All vacant lots",
+   "likely_source": "Cook County Assessor parcel data and Chicago City-Owned Land Inventory",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "The catalog has proxies but does not count vacant lots across all ownership.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "eecec478d82cf57194e8dc10af5f13101ce3c487e3e4808d17a89bf642a9a791",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:physical_environment"
+   ]
+  },
+  {
+   "section": "physical_environment",
+   "text": "perception of safety",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "physical_environment-04",
+   "seed_key": "cf1ef3011e",
+   "status": "partial",
+   "matches": [
+    "modeled_fear_walking_pct"
+   ],
+   "gap": "The existing measure covers expected fear of walking alone at night near home; a broader measure could capture safety perceptions across places, times, or situations.",
+   "title": "Broader perceived safety",
+   "likely_source": "CDPH Healthy Chicago Survey / Chicago Health Atlas",
+   "needs_data": false,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "A modeled nighttime-walking fear measure covers only one aspect of perceived safety.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "eecec478d82cf57194e8dc10af5f13101ce3c487e3e4808d17a89bf642a9a791",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:physical_environment",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "physical_environment",
+   "text": "lead in parks",
+   "children": [],
+   "credits": [
+    {
+     "name": "Scott"
+    }
+   ],
+   "kind": "measure",
+   "id": "physical_environment-05",
+   "seed_key": "a3158d0941",
+   "status": "live",
+   "matches": [
+    "park_fountain_lead_flagged_pct"
+   ],
+   "gap": "The existing measure covers historically elevated lead in park fountains, not lead in park soil, play areas, or other park features.",
+   "title": "Lead in park soil and play areas",
+   "likely_source": "Chicago Park District and CDPH lead-testing records",
+   "needs_data": true,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "The fountain measure addresses only one potential source of lead in parks.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "eecec478d82cf57194e8dc10af5f13101ce3c487e3e4808d17a89bf642a9a791",
+   "checks": [
+    "nominator_measure_live:park_fountain_lead_flagged_pct→live"
+   ],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:physical_environment",
+    "needs-data",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "physical_environment",
+   "text": "sunlight access",
+   "children": [],
+   "credits": [
+    {
+     "name": "Jackie"
+    }
+   ],
+   "kind": "measure",
+   "id": "physical_environment-06",
+   "seed_key": "6399a6b533",
+   "status": "live",
+   "matches": [
+    "annual_sun_access_pct",
+    "summer_solstice_sun_access_pct",
+    "winter_solstice_sun_access_pct"
+   ],
+   "gap": "",
+   "title": "Sunlight access",
+   "likely_source": "Sunscore / Cook County LiDAR",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "The catalog measures annual sunlight access and seasonal sunlight variants.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "eecec478d82cf57194e8dc10af5f13101ce3c487e3e4808d17a89bf642a9a791",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:physical_environment"
+   ]
+  },
+  {
+   "section": "physical_environment",
+   "text": "access to lake front",
+   "children": [],
+   "credits": [
+    {
+     "name": "Ryan",
+     "ward": "5"
+    }
+   ],
+   "kind": "measure",
+   "id": "physical_environment-07",
+   "seed_key": "0f1a8966dd",
+   "status": "live",
+   "matches": [
+    "lakefront_distance_miles"
+   ],
+   "gap": "The existing measure is distance to the shoreline, not distance to a publicly accessible lakefront entrance or access point.",
+   "title": "Distance to public lakefront access",
+   "likely_source": "Chicago Park District lakefront access data / OpenStreetMap",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": true,
+   "reason": "Shoreline proximity does not show whether residents can readily reach public access points.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "eecec478d82cf57194e8dc10af5f13101ce3c487e3e4808d17a89bf642a9a791",
+   "checks": [
+    "nominator_measure_live:lakefront_distance_miles→live"
+   ],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:physical_environment",
+    "good first issue"
+   ]
+  },
+  {
+   "section": "culture",
+   "text": "language spoken at home",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "culture-01",
+   "seed_key": "da79a7f977",
+   "status": "live",
+   "matches": [
+    "linguistic_diversity",
+    "multilingual_share_pct"
+   ],
+   "gap": "",
+   "title": "Language spoken at home",
+   "likely_source": "American Community Survey 5-year estimates",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "The catalog already measures home-language variety and the share speaking a non-English language at home.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "dfa7ba234c3d67681222143363ca913ca96b50037fc4e61c8e503a53af2c6398",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:culture"
+   ]
+  },
+  {
+   "section": "culture",
+   "text": "museum accessibility",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "culture-02",
+   "seed_key": "38a593b622",
+   "status": "partial",
+   "matches": [
+    "museum_count"
+   ],
+   "gap": "A museum count does not show how accessible museums are to residents. A new measure could estimate distance or travel access to nearby museums.",
+   "title": "Distance to nearby museums",
+   "likely_source": "OpenStreetMap and City of Chicago museum locations",
+   "needs_data": false,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "The catalog counts museums but does not measure residents’ access to them.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "dfa7ba234c3d67681222143363ca913ca96b50037fc4e61c8e503a53af2c6398",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:culture",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "culture",
+   "text": "public art",
+   "children": [],
+   "credits": [],
+   "kind": "measure",
+   "id": "culture-03",
+   "seed_key": "d53088d6d6",
+   "status": "partial",
+   "matches": [
+    "arts_culture_count"
+   ],
+   "gap": "The arts-and-culture places count does not specifically capture public artworks. A new measure could count mapped public art installations, with a clear scope for what qualifies.",
+   "title": "Public art installations",
+   "likely_source": "City of Chicago Public Art Collection",
+   "needs_data": false,
+   "expert_wanted": true,
+   "good_first_issue": false,
+   "reason": "A general arts-and-culture count is related, but it does not measure public artworks specifically.",
+   "model": "gpt-6-luna",
+   "llm_call_key": "dfa7ba234c3d67681222143363ca913ca96b50037fc4e61c8e503a53af2c6398",
+   "checks": [],
+   "labels": [
+    "measure-idea",
+    "open",
+    "domain:culture",
+    "expert-wanted"
+   ]
+  },
+  {
+   "section": "views",
+   "text": "strengths / opportunities",
+   "context": "clicking on a ward opens up an in-depth ward report",
+   "children": [],
+   "credits": [],
+   "kind": "story",
+   "id": "views-01",
+   "seed_key": "8058262138",
+   "status": "live",
+   "matches": [
+    "/report"
+   ],
+   "gap": "",
+   "title": "Ward report: strengths and opportunities",
+   "likely_source": "",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "The full report already shows a ward’s strongest and weakest measures.",
+   "audience": "Ward residents",
+   "question": "What is my ward doing well, and where is it falling short?",
+   "model": "gpt-6-luna",
+   "llm_call_key": "eecb429c133b5720b5fcf448c64236610f97dfed40c4e133aad79d35a3504053",
+   "checks": [],
+   "labels": [
+    "story-idea",
+    "open"
+   ]
+  },
+  {
+   "section": "views",
+   "text": "performance over time (biggest changes)",
+   "context": "clicking on a ward opens up an in-depth ward report",
+   "children": [],
+   "credits": [],
+   "kind": "story",
+   "id": "views-02",
+   "seed_key": "23ee0ce842",
+   "status": "live",
+   "matches": [
+    "/report"
+   ],
+   "gap": "",
+   "title": "Ward report: performance over time",
+   "likely_source": "",
+   "needs_data": false,
+   "expert_wanted": false,
+   "good_first_issue": false,
+   "reason": "The full report already shows rank over time and what changed.",
+   "audience": "Ward residents",
+   "question": "What has changed most in my ward’s performance over time?",
+   "model": "gpt-6-luna",
+   "llm_call_key": "eecb429c133b5720b5fcf448c64236610f97dfed40c4e133aad79d35a3504053",
+   "checks": [],
+   "labels": [
+    "story-idea",
+    "open"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "name": "measure-idea",
+    "color": "1d76db",
+    "description": "A new measure; delivered as its own repo + a measures.json PR"
+  },
+  {
+    "name": "story-idea",
+    "color": "5319e7",
+    "description": "A page, report or dashboard for a kind of person"
+  },
+  {
+    "name": "open",
+    "color": "0e8a16",
+    "description": "Nobody has claimed it yet"
+  },
+  {
+    "name": "in-progress",
+    "color": "fbca04",
+    "description": "Claimed; see the Work lives at field"
+  },
+  {
+    "name": "needs-data",
+    "color": "d93f0b",
+    "description": "Blocked until someone finds or frees a data source"
+  },
+  {
+    "name": "not-feasible",
+    "color": "b60205",
+    "description": "Can't be measured at ward level with data we can get"
+  },
+  {
+    "name": "expert-wanted",
+    "color": "c5def5",
+    "description": "Needs advice on method, sources or framing before anyone builds"
+  },
+  {
+    "name": "good first issue",
+    "color": "7057ff",
+    "description": "A small build from an open dataset"
+  },
+  {
+    "name": "domain:psychological_wellbeing",
+    "color": "bfdadc",
+    "description": "Domain: psychological wellbeing (matches the API's category id)"
+  },
+  {
+    "name": "domain:social_connectedness",
+    "color": "bfdadc",
+    "description": "Domain: social connectedness (matches the API's category id)"
+  },
+  {
+    "name": "domain:material_wellbeing",
+    "color": "bfdadc",
+    "description": "Domain: material wellbeing (matches the API's category id)"
+  },
+  {
+    "name": "domain:health",
+    "color": "bfdadc",
+    "description": "Domain: health (matches the API's category id)"
+  },
+  {
+    "name": "domain:time_balance",
+    "color": "bfdadc",
+    "description": "Domain: time balance (matches the API's category id)"
+  },
+  {
+    "name": "domain:religion_spiritual",
+    "color": "bfdadc",
+    "description": "Domain: religion/spirituality (matches the API's category id)"
+  },
+  {
+    "name": "domain:lifelong_learning",
+    "color": "bfdadc",
+    "description": "Domain: lifelong learning (matches the API's category id)"
+  },
+  {
+    "name": "domain:good_governance",
+    "color": "bfdadc",
+    "description": "Domain: good governance (matches the API's category id)"
+  },
+  {
+    "name": "domain:community_vitality",
+    "color": "bfdadc",
+    "description": "Domain: community vitality (matches the API's category id)"
+  },
+  {
+    "name": "domain:physical_environment",
+    "color": "bfdadc",
+    "description": "Domain: physical environment (matches the API's category id)"
+  },
+  {
+    "name": "domain:culture",
+    "color": "bfdadc",
+    "description": "Domain: culture (matches the API's category id)"
+  }
+]

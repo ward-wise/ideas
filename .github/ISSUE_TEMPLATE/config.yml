@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Suggest a measure without a GitHub account
+    url: https://www.wardwise.org/suggest-metric
+    about: Use the form on wardwise.org. A volunteer copies it onto this board.
+  - name: See what Ward Wise already measures
+    url: https://www.wardwise.org/dictionary
+    about: The metric dictionary lists every live measure with its source and method.

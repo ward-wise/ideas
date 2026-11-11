@@ -1,0 +1,96 @@
+name: Measure idea
+description: Something Ward Wise should measure for every Chicago ward.
+title: "[Measure] "
+labels: ["measure-idea", "open"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. You don't need to know how to build it. Tell us what you'd want to see,
+        and a builder can pick it up later. Check the [metric dictionary](https://www.wardwise.org/dictionary)
+        first: we may already measure it.
+  - type: textarea
+    id: what
+    attributes:
+      label: What to measure
+      description: One or two sentences. "Share of blocks within a 10-minute walk of a grocery store" beats "food access".
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters
+      description: What would a resident, an alderperson's office or a block club do differently if they knew this number?
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Likely data source
+      description: A dataset, agency, survey or map you think could feed it. "Not sure" is fine.
+    validations:
+      required: false
+  - type: dropdown
+    id: geography
+    attributes:
+      label: Geography
+      description: The finest level you think the data comes at. Ward Wise rolls it up to wards, community areas and χGRID cells.
+      options:
+        - Points or addresses (one row per place)
+        - Census tracts or block groups
+        - ZIP codes
+        - Wards or community areas
+        - Citywide only
+        - Not sure
+      default: 5
+    validations:
+      required: false
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      description: The wellbeing domain it fits best.
+      options:
+        - psychological wellbeing
+        - social connectedness
+        - material wellbeing
+        - health
+        - time balance
+        - religion/spirituality
+        - lifelong learning
+        - good governance
+        - community vitality
+        - physical environment
+        - culture
+        - not sure
+    validations:
+      required: false
+  - type: textarea
+    id: related
+    attributes:
+      label: Related measures already on Ward Wise
+      description: Links to dictionary entries this idea builds on or goes beyond, if you found any.
+    validations:
+      required: false
+  - type: input
+    id: nominator
+    attributes:
+      label: Nominator first name
+      description: Optional. If the measure goes live, the map credits you by first name.
+    validations:
+      required: false
+  - type: input
+    id: ward
+    attributes:
+      label: Nominator ward
+      description: Optional. Your ward number, for the same credit.
+    validations:
+      required: false
+  - type: input
+    id: work_lives_at
+    attributes:
+      label: Work lives at
+      description: Leave blank when you open the idea. Whoever claims it fills in the URL of the new measure repo.
+      placeholder: https://github.com/you/your-measure
+    validations:
+      required: false

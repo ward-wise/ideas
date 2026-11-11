@@ -1,0 +1,2653 @@
+{
+ "fetched_at": "2026-11-11T01:35:24+00:00",
+ "metrics_url": "https://www.wardwise.org/api/metrics",
+ "views_url": "https://raw.githubusercontent.com/ward-wise/ward-wise-front-end-v2/HEAD/views.json",
+ "measures": [
+  {
+   "metric_id": "absentee_owner_share_pct",
+   "label": "Absentee-owned homes",
+   "category": "community_vitality",
+   "description": "Share of residential parcels whose taxpayer mailing address differs from the property address — a proxy for absentee/landlord ownership over owner-occupancy.",
+   "source": "rentrate / Cook County Assessor",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "active_transportation_pct",
+   "label": "Walk/Bike Commute",
+   "category": "time_balance",
+   "description": "Workers commuting by walking or biking.",
+   "source": "American Community Survey 5-year estimates",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "adult_loneliness_pct",
+   "label": "Adult Loneliness",
+   "category": "social_connectedness",
+   "description": "Share of adults estimated or surveyed as lonely.",
+   "source": "CDC PLACES / Chicago Health Atlas",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "air_ozone_annual",
+   "label": "Ozone",
+   "category": "physical_environment",
+   "description": "Annual average of daily peak ground-level ozone.",
+   "source": "EPA Fused Air Quality Surfaces (downscaler)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "air_pm25_annual",
+   "label": "Fine Particles (PM2.5)",
+   "category": "physical_environment",
+   "description": "Annual average fine-particle pollution.",
+   "source": "EPA Fused Air Quality Surfaces (downscaler)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "air_pollution_complaints_per_10000",
+   "label": "Air Pollution Complaints",
+   "category": "physical_environment",
+   "description": "Air pollution complaints to the city per 10,000 residents each year.",
+   "source": "Chicago Department of Public Health environmental complaints (city portal)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "alpr_nearest_mi",
+   "label": "Nearest Plate Reader",
+   "category": "good_governance",
+   "description": "How far the average resident lives from the closest license-plate-reading camera.",
+   "source": "panopticounts",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "alpr_per_10k_residents",
+   "label": "Plate Readers per 10k",
+   "category": "good_governance",
+   "description": "License-plate-reading cameras per 10,000 residents.",
+   "source": "panopticounts",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "alpr_per_sqkm",
+   "label": "Plate Reader Density",
+   "category": "good_governance",
+   "description": "License-plate-reading cameras per square kilometer.",
+   "source": "panopticounts",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "annual_sun_access_pct",
+   "label": "Sun Access",
+   "category": "physical_environment",
+   "description": "Share of daylight that ground-level spots receive direct sun, averaged over the year.",
+   "source": "sunscore / Cook County LiDAR",
+   "nominator_first_name": "Jackie"
+  },
+  {
+   "metric_id": "arts_culture_count",
+   "label": "Arts & Culture",
+   "category": "culture",
+   "description": "Mapped arts and culture places assigned to the ward.",
+   "source": "OpenStreetMap / Overpass API",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "avg_agi_per_return_usd",
+   "label": "Avg. AGI per return",
+   "category": "material_wellbeing",
+   "description": "Mean adjusted gross income per federal tax return filed from the area.",
+   "source": "IRS SOI Individual Income Tax ZIP Code Data",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "bank_branches_per_10000_residents",
+   "label": "Bank branches",
+   "category": "material_wellbeing",
+   "description": "Commercial bank branches per 10,000 residents — annual County Business Patterns establishments.",
+   "source": "County Business Patterns (Census Bureau)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "bars_per_10000_residents",
+   "label": "Bars & taverns (County Business Patterns)",
+   "category": "community_vitality",
+   "description": "Drinking places (bars, taverns, clubs) per 10,000 residents — annual County Business Patterns establishments.",
+   "source": "County Business Patterns (Census Bureau)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "basement_flooding_complaints_per_10000_residents",
+   "label": "Basement Flooding",
+   "category": "physical_environment",
+   "description": "Water-in-basement 311 requests per 10,000 residents.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "bean_distance_miles",
+   "label": "Bean Proximity",
+   "category": "religion_spiritual",
+   "description": "Proximity to Cloud Gate in Millennium Park.",
+   "source": "Wikidata Q589099 coordinate location and Chicago ward boundaries",
+   "nominator_first_name": "Harry"
+  },
+  {
+   "metric_id": "bike_route_miles_per_sq_mi",
+   "label": "Bike Route Miles",
+   "category": "community_vitality",
+   "description": "Miles of marked bike route per square mile of the area (today's network).",
+   "source": "Chicago bike routes (city portal)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "boundary_compactness_score",
+   "label": "Boundary Compactness",
+   "category": "good_governance",
+   "description": "How compact the area's boundary is: 100 is a circle, low is a long, ragged or panhandled shape.",
+   "source": "Ward boundary polygons (city open-data export)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "boundary_miles_per_sq_mi",
+   "label": "Boundary Length per Square Mile",
+   "category": "good_governance",
+   "description": "Miles of boundary for every square mile of area — the raw perimeter-to-area ratio.",
+   "source": "Ward boundary polygons (city open-data export)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "broadband_access_pct",
+   "label": "Broadband",
+   "category": "material_wellbeing",
+   "description": "Households with a broadband internet subscription.",
+   "source": "American Community Survey 5-year estimates",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "building_benchmarking_compliance_pct",
+   "label": "Benchmarking compliance",
+   "category": "physical_environment",
+   "description": "Share of the area's covered buildings that actually filed their energy report.",
+   "source": "Chicago Energy Benchmarking (Chicago Data Portal)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "building_energy_rating_median",
+   "label": "Chicago Energy Rating",
+   "category": "physical_environment",
+   "description": "The city's own 0-4 star energy rating, at the area's median large building.",
+   "source": "Chicago Energy Benchmarking (Chicago Data Portal)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "building_ghg_emissions_tons",
+   "label": "Building emissions total",
+   "category": "physical_environment",
+   "description": "Total carbon reported by the area's large buildings each year.",
+   "source": "Chicago Energy Benchmarking (Chicago Data Portal)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "building_ghg_intensity_median",
+   "label": "Building emissions intensity",
+   "category": "physical_environment",
+   "description": "How much carbon the area's large buildings emit per square foot.",
+   "source": "Chicago Energy Benchmarking (Chicago Data Portal)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "building_permit_processing_days",
+   "label": "Permit Processing Time",
+   "category": "good_governance",
+   "description": "Days the city takes to issue building permits.",
+   "source": "Chicago Data Portal Building Permits",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "building_violation_complaints_per_10000_residents",
+   "label": "Building Violation Complaints",
+   "category": "physical_environment",
+   "description": "311 building, plumbing and no-permit violation complaints per 10,000 residents.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "building_violations_per_10000",
+   "label": "Building Code Violations",
+   "category": "physical_environment",
+   "description": "Building code violations the city cited per 10,000 residents each year.",
+   "source": "Chicago Department of Buildings violations (city portal)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "business_closures_per_10000_residents",
+   "label": "Business closures",
+   "category": "community_vitality",
+   "description": "Licensed businesses winking out per 10,000 residents each year — the departure side of neighborhood churn.",
+   "source": "Chicago business licenses (BACP)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "business_openings_per_10000_residents",
+   "label": "Business openings",
+   "category": "community_vitality",
+   "description": "Newly licensed businesses per 10,000 residents each year — the arrival side of neighborhood churn.",
+   "source": "Chicago business licenses (BACP)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_closed_week_pct",
+   "label": "Services closed within a week",
+   "category": "good_governance",
+   "description": "Share of 311 services closed within seven days of the first report, averaged across service types.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_garbage_cart_days",
+   "label": "Garbage Cart Service Time (per report)",
+   "category": "good_governance",
+   "description": "Days to close garbage cart maintenance requests.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_graffiti_days",
+   "label": "Graffiti Removal Time (per report)",
+   "category": "good_governance",
+   "description": "Days to close graffiti removal requests.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_pothole_days",
+   "label": "Pothole Repair Time (per report)",
+   "category": "good_governance",
+   "description": "Days to close pothole requests.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_repeat_reports",
+   "label": "Repeat reports per service",
+   "category": "good_governance",
+   "description": "How many extra times a problem gets reported before it is closed, averaged across 311 service types.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_repeats_abandoned_vehicle",
+   "label": "Abandoned vehicle removal repeat reports",
+   "category": "good_governance",
+   "description": "Extra reports per abandoned vehicle removal service: how often residents had to report the same problem again.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_repeats_fly_dumping",
+   "label": "Fly dumping cleanup repeat reports",
+   "category": "good_governance",
+   "description": "Extra reports per fly dumping cleanup service: how often residents had to report the same problem again.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_repeats_garbage_cart",
+   "label": "Garbage cart service repeat reports",
+   "category": "good_governance",
+   "description": "Extra reports per garbage cart service service: how often residents had to report the same problem again.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_repeats_graffiti",
+   "label": "Graffiti removal repeat reports",
+   "category": "good_governance",
+   "description": "Extra reports per graffiti removal service: how often residents had to report the same problem again.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_repeats_missed_pickup",
+   "label": "Missed garbage pickup repeat reports",
+   "category": "good_governance",
+   "description": "Extra reports per missed garbage pickup service: how often residents had to report the same problem again.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_repeats_pothole",
+   "label": "Pothole repair repeat reports",
+   "category": "good_governance",
+   "description": "Extra reports per pothole repair service: how often residents had to report the same problem again.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_repeats_rodent",
+   "label": "Rodent baiting repeat reports",
+   "category": "good_governance",
+   "description": "Extra reports per rodent baiting service: how often residents had to report the same problem again.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_repeats_sanitation",
+   "label": "Sanitation code violations repeat reports",
+   "category": "good_governance",
+   "description": "Extra reports per sanitation code violations service: how often residents had to report the same problem again.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_repeats_street_light",
+   "label": "Street light repair repeat reports",
+   "category": "good_governance",
+   "description": "Extra reports per street light repair service: how often residents had to report the same problem again.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_repeats_traffic_signal",
+   "label": "Traffic signal repair repeat reports",
+   "category": "good_governance",
+   "description": "Extra reports per traffic signal repair service: how often residents had to report the same problem again.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_repeats_tree_debris",
+   "label": "Tree debris cleanup repeat reports",
+   "category": "good_governance",
+   "description": "Extra reports per tree debris cleanup service: how often residents had to report the same problem again.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_response_days",
+   "label": "311 Response Time (per report)",
+   "category": "good_governance",
+   "description": "Days the city takes to close common 311 requests.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": "Connor"
+  },
+  {
+   "metric_id": "c311_rodent_days",
+   "label": "Rodent Baiting Time (per report)",
+   "category": "good_governance",
+   "description": "Days to close rodent baiting requests.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_service_abandoned_vehicle_days",
+   "label": "Abandoned vehicle removal (service)",
+   "category": "good_governance",
+   "description": "Median days from a problem's first report to its closure, duplicates grouped: abandoned vehicle removal.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_service_fly_dumping_days",
+   "label": "Fly dumping cleanup (service)",
+   "category": "good_governance",
+   "description": "Median days from a problem's first report to its closure, duplicates grouped: fly dumping cleanup.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_service_garbage_cart_days",
+   "label": "Garbage cart service (service)",
+   "category": "good_governance",
+   "description": "Median days from a problem's first report to its closure, duplicates grouped: garbage cart service.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_service_graffiti_days",
+   "label": "Graffiti removal (service)",
+   "category": "good_governance",
+   "description": "Median days from a problem's first report to its closure, duplicates grouped: graffiti removal.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_service_missed_pickup_days",
+   "label": "Missed garbage pickup (service)",
+   "category": "good_governance",
+   "description": "Median days from a problem's first report to its closure, duplicates grouped: missed garbage pickup.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_service_pothole_days",
+   "label": "Pothole repair (service)",
+   "category": "good_governance",
+   "description": "Median days from a problem's first report to its closure, duplicates grouped: pothole repair.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_service_response_days",
+   "label": "Service response time",
+   "category": "good_governance",
+   "description": "Typical days from a problem's first report to its fix, across eleven common 311 services.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_service_rodent_days",
+   "label": "Rodent baiting (service)",
+   "category": "good_governance",
+   "description": "Median days from a problem's first report to its closure, duplicates grouped: rodent baiting.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_service_sanitation_days",
+   "label": "Sanitation code violations (service)",
+   "category": "good_governance",
+   "description": "Median days from a problem's first report to its closure, duplicates grouped: sanitation code violations.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_service_street_light_days",
+   "label": "Street light repair (service)",
+   "category": "good_governance",
+   "description": "Median days from a problem's first report to its closure, duplicates grouped: street light repair.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_service_traffic_signal_days",
+   "label": "Traffic signal repair (service)",
+   "category": "good_governance",
+   "description": "Median days from a problem's first report to its closure, duplicates grouped: traffic signal repair.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_service_tree_debris_days",
+   "label": "Tree debris cleanup (service)",
+   "category": "good_governance",
+   "description": "Median days from a problem's first report to its closure, duplicates grouped: tree debris cleanup.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_street_light_days",
+   "label": "Street Light Repair Time (per report)",
+   "category": "good_governance",
+   "description": "Days to close street light out requests.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_tree_debris_days",
+   "label": "Tree Debris Cleanup Time (per report)",
+   "category": "good_governance",
+   "description": "Days to close tree debris clean-up requests.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_week_abandoned_vehicle_pct",
+   "label": "Abandoned vehicle removal within a week",
+   "category": "good_governance",
+   "description": "Share of abandoned vehicle removal services closed within seven days of the first report.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_week_fly_dumping_pct",
+   "label": "Fly dumping cleanup within a week",
+   "category": "good_governance",
+   "description": "Share of fly dumping cleanup services closed within seven days of the first report.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_week_garbage_cart_pct",
+   "label": "Garbage cart service within a week",
+   "category": "good_governance",
+   "description": "Share of garbage cart service services closed within seven days of the first report.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_week_graffiti_pct",
+   "label": "Graffiti removal within a week",
+   "category": "good_governance",
+   "description": "Share of graffiti removal services closed within seven days of the first report.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_week_missed_pickup_pct",
+   "label": "Missed garbage pickup within a week",
+   "category": "good_governance",
+   "description": "Share of missed garbage pickup services closed within seven days of the first report.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_week_pothole_pct",
+   "label": "Pothole repair within a week",
+   "category": "good_governance",
+   "description": "Share of pothole repair services closed within seven days of the first report.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_week_rodent_pct",
+   "label": "Rodent baiting within a week",
+   "category": "good_governance",
+   "description": "Share of rodent baiting services closed within seven days of the first report.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_week_sanitation_pct",
+   "label": "Sanitation code violations within a week",
+   "category": "good_governance",
+   "description": "Share of sanitation code violations services closed within seven days of the first report.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_week_street_light_pct",
+   "label": "Street light repair within a week",
+   "category": "good_governance",
+   "description": "Share of street light repair services closed within seven days of the first report.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_week_traffic_signal_pct",
+   "label": "Traffic signal repair within a week",
+   "category": "good_governance",
+   "description": "Share of traffic signal repair services closed within seven days of the first report.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "c311_week_tree_debris_pct",
+   "label": "Tree debris cleanup within a week",
+   "category": "good_governance",
+   "description": "Share of tree debris cleanup services closed within seven days of the first report.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "chain_restaurant_share_pct",
+   "label": "Chain restaurant share (Google Maps sweep)",
+   "category": "community_vitality",
+   "description": "Share of a place's restaurants that are chain outlets rather than independents.",
+   "source": "Google Maps via Apify third-places sweeps",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "childcare_per_10000_residents",
+   "label": "Child care centers (County Business Patterns)",
+   "category": "lifelong_learning",
+   "description": "Child day care establishments per 10,000 residents — annual County Business Patterns establishments.",
+   "source": "County Business Patterns (Census Bureau)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "chronic_absenteeism_pct",
+   "label": "Chronic Absenteeism",
+   "category": "lifelong_learning",
+   "description": "Students missing 10%+ of school days at area schools.",
+   "source": "Illinois Report Card / CPS",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "chrs_historic_buildings_count",
+   "label": "Historic survey buildings",
+   "category": "culture",
+   "description": "Red/orange-rated buildings from the 1983-1995 Chicago Historic Resources Survey — the fixed stock of surveyed significant pre-1940 architecture.",
+   "source": "Chicago Historic Resources Survey",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "cinema_5th_nearest_mi",
+   "label": "5th-Nearest Cinema",
+   "category": "culture",
+   "description": "How far the average resident lives from their 5th-closest movie theater: a measure of choice, not just access.",
+   "source": "screenreach",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "cinema_nearest_mi",
+   "label": "Nearest Cinema",
+   "category": "culture",
+   "description": "How far the average resident lives from the closest movie theater.",
+   "source": "screenreach",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "cinema_screens_count",
+   "label": "Movie Screens",
+   "category": "culture",
+   "description": "Movie screens inside the area.",
+   "source": "screenreach",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "cinema_screens_per_100k",
+   "label": "Screens per Capita",
+   "category": "culture",
+   "description": "Movie screens within reach per 100,000 people who share them.",
+   "source": "screenreach",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "cinema_screens_within_3mi",
+   "label": "Screens Nearby",
+   "category": "culture",
+   "description": "How many movie screens the average resident has within 3 miles.",
+   "source": "screenreach",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "cinemas_count",
+   "label": "Cinemas",
+   "category": "culture",
+   "description": "Movie theaters inside the area.",
+   "source": "screenreach",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "city_land_sales_count",
+   "label": "City Land Sales",
+   "category": "good_governance",
+   "description": "City-owned parcels sold each year (lots returning to private hands).",
+   "source": "Chicago City-Owned Land Inventory (city portal)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "city_owned_parcels_per_sq_mi",
+   "label": "City-Owned Parcels",
+   "category": "physical_environment",
+   "description": "Parcels the city currently owns per square mile, mostly vacant lots.",
+   "source": "Chicago City-Owned Land Inventory (city portal)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "coffee_shops_count",
+   "label": "Coffee shops (Google Maps sweep)",
+   "category": "community_vitality",
+   "description": "Coffee shops, cafés, espresso bars, and tea houses.",
+   "source": "Google Maps via Apify third-places sweeps",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "coffee_shops_median_rating",
+   "label": "Coffee rating",
+   "category": "community_vitality",
+   "description": "Median Google rating of the area's coffee shops.",
+   "source": "Google Maps via Apify third-places sweeps",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "coffee_shops_rated_4plus_count",
+   "label": "4★+ coffees",
+   "category": "community_vitality",
+   "description": "Coffee Shops rated 4.0+ with at least 10 reviews.",
+   "source": "Google Maps via Apify third-places sweeps",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "coffee_shops_top_rated_count",
+   "label": "Top-rated coffees",
+   "category": "community_vitality",
+   "description": "Coffee Shops rated 4.5+ with at least 50 reviews.",
+   "source": "Google Maps via Apify third-places sweeps",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "coffee_snack_per_10000_residents",
+   "label": "Coffee shops (County Business Patterns)",
+   "category": "community_vitality",
+   "description": "Coffee shops, juice bars, and snack spots per 10,000 residents — annual County Business Patterns establishments.",
+   "source": "County Business Patterns (Census Bureau)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "colleges_count",
+   "label": "Colleges & Universities",
+   "category": "lifelong_learning",
+   "description": "Degree-granting campuses (4-year and 2-year) located here.",
+   "source": "IPEDS (NCES)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "community_belonging_pct",
+   "label": "Community Belonging",
+   "category": "social_connectedness",
+   "description": "Share of adults who agree they really feel part of their neighborhood.",
+   "source": "Chicago Health Atlas / Healthy Chicago Survey",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "congregations_per_10000_residents",
+   "label": "Congregations",
+   "category": "religion_spiritual",
+   "description": "Religious congregations with paid staff per 10,000 residents — annual County Business Patterns establishments.",
+   "source": "County Business Patterns (Census Bureau)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "council_attendance_pct",
+   "label": "Attendance",
+   "category": "good_governance",
+   "description": "Alder attendance rate for the current Councilmatic session, combined by ward when representation changed.",
+   "source": "Chicago Councilmatic",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "cta_l_station_entries",
+   "label": "'L' ridership",
+   "category": "community_vitality",
+   "description": "Annual entries at CTA 'L' stations located in the area — footfall since 2001, current to within about two months.",
+   "source": "CTA monthly 'L' station entries (Chicago Transit Authority)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "dedicated_bars_count",
+   "label": "Bars & taverns (Google Maps sweep)",
+   "category": "community_vitality",
+   "description": "Bars whose Google categories are drinking-focused with no food categories.",
+   "source": "Google Maps via Apify third-places sweeps",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "dedicated_bars_median_rating",
+   "label": "Bar rating",
+   "category": "community_vitality",
+   "description": "Median Google rating of the area's dedicated bars.",
+   "source": "Google Maps via Apify third-places sweeps",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "dedicated_bars_rated_4plus_count",
+   "label": "4★+ bars",
+   "category": "community_vitality",
+   "description": "Dedicated Bars rated 4.0+ with at least 10 reviews.",
+   "source": "Google Maps via Apify third-places sweeps",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "dedicated_bars_top_rated_count",
+   "label": "Top-rated bars",
+   "category": "community_vitality",
+   "description": "Dedicated Bars rated 4.5+ with at least 50 reviews.",
+   "source": "Google Maps via Apify third-places sweeps",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "demolition_permits_count",
+   "label": "Demolition Permits",
+   "category": "physical_environment",
+   "description": "Wrecking and demolition permits issued each year, all structure types.",
+   "source": "Chicago Data Portal Building Permits",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "designated_landmarks_count",
+   "label": "Official landmarks",
+   "category": "culture",
+   "description": "Official Chicago Landmarks in the area — a cumulative series counted from each designation's year.",
+   "source": "Chicago Landmarks (Individual Landmarks dataset)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "divvy_rides_count",
+   "label": "Divvy rides",
+   "category": "community_vitality",
+   "description": "Annual Divvy trips touching the area, each ride split between its start and end — street-level activity since April 2020, current to within weeks.",
+   "source": "Divvy system trip data (Lyft/Chicago)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "educational_attainment_bachelors_plus_pct",
+   "label": "Degrees",
+   "category": "lifelong_learning",
+   "description": "Adults age 25 and older with a bachelor's degree or higher.",
+   "source": "American Community Survey 5-year estimates",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "ej_air_toxics_cancer",
+   "label": "Air-toxics cancer risk",
+   "category": "health",
+   "description": "Chicago EJ Index indicator: Modeled lifetime cancer risk from air toxics, per million people.",
+   "source": "CDPH Cumulative Impact Assessment",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "ej_air_toxics_hazard",
+   "label": "Air-toxics hazard",
+   "category": "health",
+   "description": "Chicago EJ Index indicator: The air-toxics respiratory hazard index (sum of hazard quotients).",
+   "source": "CDPH Cumulative Impact Assessment",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "ej_childhood_lead",
+   "label": "Childhood lead",
+   "category": "health",
+   "description": "Chicago EJ Index indicator: Children ages 1–5 with a blood lead level at or above 5 µg/dL.",
+   "source": "CDPH Cumulative Impact Assessment",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "ej_consequential_facility_proximity",
+   "label": "Consequential-facility proximity",
+   "category": "physical_environment",
+   "description": "Chicago EJ Index indicator: Proximity-weighted consequential (major-emitter) facilities.",
+   "source": "CDPH Cumulative Impact Assessment",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "ej_diesel_pm",
+   "label": "Diesel PM",
+   "category": "physical_environment",
+   "description": "Chicago EJ Index indicator: Diesel particulate matter in air (µg/m³).",
+   "source": "CDPH Cumulative Impact Assessment",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "ej_freight_rail_proximity",
+   "label": "Freight-rail proximity",
+   "category": "physical_environment",
+   "description": "Chicago EJ Index indicator: Proximity-weighted freight rail lines.",
+   "source": "CDPH Cumulative Impact Assessment",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "ej_hazardous_waste_proximity",
+   "label": "Hazardous-waste proximity",
+   "category": "physical_environment",
+   "description": "Chicago EJ Index indicator: Proximity-weighted RCRA hazardous-waste facilities.",
+   "source": "CDPH Cumulative Impact Assessment",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "ej_impact_rate_pct",
+   "label": "EJ impact rate",
+   "category": "physical_environment",
+   "description": "Share of an area's population living in an Environmental Justice priority neighborhood (an EJ-designated community area), derived from the Chicago EJ Index.",
+   "source": "CDPH Cumulative Impact Assessment",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "ej_ozone",
+   "label": "Ozone",
+   "category": "physical_environment",
+   "description": "Chicago EJ Index indicator: Ground-level ozone, summer seasonal average of the daily maximum 8-hour concentration (ppb).",
+   "source": "CDPH Cumulative Impact Assessment",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "ej_pm25",
+   "label": "PM2.5",
+   "category": "physical_environment",
+   "description": "Chicago EJ Index indicator: Fine-particulate (PM2.5) air pollution, annual average µg/m³.",
+   "source": "CDPH Cumulative Impact Assessment",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "ej_polluted_site_proximity",
+   "label": "Polluted-site proximity",
+   "category": "physical_environment",
+   "description": "Chicago EJ Index indicator: Proximity-weighted Superfund, Brownfield, and state-remediation sites.",
+   "source": "CDPH Cumulative Impact Assessment",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "ej_pollution_burden_score",
+   "label": "Pollution burden",
+   "category": "physical_environment",
+   "description": "Chicago EJ Index indicator: The pollution-burden component score (environmental exposures and conditions), 0–10.",
+   "source": "CDPH Cumulative Impact Assessment",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "ej_population_characteristics_score",
+   "label": "Population vulnerability",
+   "category": "physical_environment",
+   "description": "Chicago EJ Index indicator: The population-characteristics component score (sensitive populations and socioeconomic factors), 0–10.",
+   "source": "CDPH Cumulative Impact Assessment",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "ej_rmp_site_proximity",
+   "label": "RMP site proximity",
+   "category": "physical_environment",
+   "description": "Chicago EJ Index indicator: Proximity-weighted Risk Management Plan sites.",
+   "source": "CDPH Cumulative Impact Assessment",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "ej_toxic_releases",
+   "label": "Toxic releases",
+   "category": "physical_environment",
+   "description": "Chicago EJ Index indicator: RSEI toxicity-weighted air concentration of Toxic Release Inventory chemicals.",
+   "source": "CDPH Cumulative Impact Assessment",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "ej_traffic_proximity",
+   "label": "Traffic proximity",
+   "category": "physical_environment",
+   "description": "Chicago EJ Index indicator: Traffic proximity and volume (annual daily traffic within 500 m ÷ distance).",
+   "source": "CDPH Cumulative Impact Assessment",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "ej_tri_facility_proximity",
+   "label": "TRI facility proximity",
+   "category": "physical_environment",
+   "description": "Chicago EJ Index indicator: Proximity-weighted Toxic Release Inventory facilities.",
+   "source": "CDPH Cumulative Impact Assessment",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "ej_wastewater_proximity",
+   "label": "Wastewater proximity",
+   "category": "physical_environment",
+   "description": "Chicago EJ Index indicator: Proximity-weighted RSEI toxic concentrations at nearby stream segments.",
+   "source": "CDPH Cumulative Impact Assessment",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "environmental_complaints_per_10000",
+   "label": "Environmental Complaints",
+   "category": "physical_environment",
+   "description": "Complaints to the city about air, noise, dumping and other environmental problems, per 10,000 residents each year.",
+   "source": "Chicago Department of Public Health environmental complaints (city portal)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "environmental_justice_index",
+   "label": "Environmental Justice",
+   "category": "physical_environment",
+   "description": "Cumulative environmental burden and population vulnerability, from the city's Chicago Environmental Justice Index. Higher means greater burden.",
+   "source": "CDPH Cumulative Impact Assessment",
+   "nominator_first_name": "Cameron"
+  },
+  {
+   "metric_id": "faith_institution_count",
+   "label": "Faith Places",
+   "category": "religion_spiritual",
+   "description": "Mapped faith institutions assigned to the ward.",
+   "source": "OpenStreetMap / Overpass API",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "fifth_nearest_bar_miles",
+   "label": "Distance to 5th-nearest bar",
+   "category": "community_vitality",
+   "description": "How far you go to have five bars to choose from, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "fifth_nearest_coffee_shop_miles",
+   "label": "Distance to 5th-nearest coffee shop",
+   "category": "community_vitality",
+   "description": "How far you go to have five coffee shops to choose from, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "fifth_nearest_college_miles",
+   "label": "Distance to 5th-nearest college",
+   "category": "lifelong_learning",
+   "description": "How far you go to have five colleges to choose from, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "fifth_nearest_cooling_center_miles",
+   "label": "Distance to 5th-nearest cooling center",
+   "category": "physical_environment",
+   "description": "How far you go to have five cooling centers to choose from, averaged over points inside the area.",
+   "source": "City cooling center list, indoor sites only (city portal msrk-w9ih)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "fifth_nearest_cta_rail_station_miles",
+   "label": "Distance to 5th-nearest CTA 'L' station",
+   "category": "community_vitality",
+   "description": "How far you go to have five CTA 'L' stations to choose from, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "fifth_nearest_grocery_miles",
+   "label": "Distance to 5th-nearest grocery store",
+   "category": "health",
+   "description": "How far you go to have five grocery stores to choose from, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "fifth_nearest_gym_miles",
+   "label": "Distance to 5th-nearest gym",
+   "category": "health",
+   "description": "How far you go to have five gyms to choose from, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "fifth_nearest_library_miles",
+   "label": "Distance to 5th-nearest library",
+   "category": "lifelong_learning",
+   "description": "How far you go to have five libraries to choose from, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "fifth_nearest_park_miles",
+   "label": "Distance to 5th-nearest park",
+   "category": "physical_environment",
+   "description": "How far you go to have five parks to choose from, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "fifth_nearest_pharmacy_miles",
+   "label": "Distance to 5th-nearest pharmacy",
+   "category": "health",
+   "description": "How far you go to have five pharmacies to choose from, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "fifth_nearest_restaurant_miles",
+   "label": "Distance to 5th-nearest restaurant",
+   "category": "community_vitality",
+   "description": "How far you go to have five restaurants to choose from, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "fifth_nearest_school_miles",
+   "label": "Distance to 5th-nearest public school",
+   "category": "lifelong_learning",
+   "description": "How far you go to have five public schools to choose from, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "fifth_nearest_worship_miles",
+   "label": "Distance to 5th-nearest place of worship",
+   "category": "religion_spiritual",
+   "description": "How far you go to have five places of worship to choose from, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "fitness_places_per_10000_residents",
+   "label": "Gyms & fitness (Google Maps sweep)",
+   "category": "health",
+   "description": "Gyms, studios, martial arts, and pools per 10,000 residents.",
+   "source": "Google Maps via Apify third-places sweeps",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "flock_alpr_per_sqkm",
+   "label": "Flock Reader Density",
+   "category": "good_governance",
+   "description": "Flock Safety license-plate-reading cameras per square kilometer.",
+   "source": "panopticounts",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "flooding_complaints_per_10000_residents",
+   "label": "Flooding Complaints",
+   "category": "physical_environment",
+   "description": "Water-in-basement and water-on-street 311 requests per 10,000 residents.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "food_inspection_fail_pct",
+   "label": "Food Inspection Failures",
+   "category": "health",
+   "description": "Share of restaurant and food-store inspections that failed each year.",
+   "source": "CDPH food inspections (city portal)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "frequent_mental_distress_pct",
+   "label": "Mental Distress",
+   "category": "psychological_wellbeing",
+   "description": "Adults reporting 14 or more mentally unhealthy days in the past 30 days.",
+   "source": "CDC PLACES",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "garden_count",
+   "label": "Gardens",
+   "category": "physical_environment",
+   "description": "Mapped gardens assigned to the ward.",
+   "source": "OpenStreetMap / Overpass API",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "grocery_stores_per_10000_residents",
+   "label": "Grocery stores (County Business Patterns)",
+   "category": "health",
+   "description": "Supermarkets and grocery stores per 10,000 residents — annual County Business Patterns establishments.",
+   "source": "County Business Patterns (Census Bureau)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "gyms_per_10000_residents",
+   "label": "Gyms & fitness (County Business Patterns)",
+   "category": "health",
+   "description": "Fitness and recreation centers per 10,000 residents — annual County Business Patterns establishments.",
+   "source": "County Business Patterns (Census Bureau)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "hair_and_beauty_per_10000_residents",
+   "label": "Hair & beauty services",
+   "category": "community_vitality",
+   "description": "Barber shops, beauty salons, and nail salons per 10,000 residents — annual County Business Patterns establishments.",
+   "source": "County Business Patterns (Census Bureau)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "homicide_victims_per_10000",
+   "label": "Homicide Victims",
+   "category": "community_vitality",
+   "description": "Homicide victims per 10,000 residents each year.",
+   "source": "Chicago Police violence reduction victims (city portal)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "hot_surface_share_pct",
+   "label": "Hot Pavement Share",
+   "category": "physical_environment",
+   "description": "Share of the area that is hot pavement or roof, 38°C (100°F) or more at the surface, in a typical summer late morning.",
+   "source": "USGS Landsat via Microsoft Planetary Computer",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "hotels_per_10000_residents",
+   "label": "Hotels",
+   "category": "community_vitality",
+   "description": "Hotels and motels (except casinos) per 10,000 residents — annual County Business Patterns establishments.",
+   "source": "County Business Patterns (Census Bureau)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "independent_cinema_nearest_mi",
+   "label": "Nearest Indie Cinema",
+   "category": "culture",
+   "description": "How far the average resident lives from the closest independent, nonprofit or repertory cinema.",
+   "source": "screenreach",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "lakefront_distance_miles",
+   "label": "Lakefront Proximity",
+   "category": "physical_environment",
+   "description": "Miles to the Lake Michigan shoreline.",
+   "source": "Census TIGER water tract and area boundaries",
+   "nominator_first_name": "Ryan"
+  },
+  {
+   "metric_id": "landlord_profit_share_actual_pct",
+   "label": "Landlord profit (sale price)",
+   "category": "material_wellbeing",
+   "description": "Same estimate, but the mortgage basis is the parcel's last arm's-length sale price — models likely real debt, but reads thin/negative for recent buyers.",
+   "source": "rentrate / Cook County Assessor + ACS",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "landlord_profit_share_pct",
+   "label": "Landlord profit (assessed)",
+   "category": "material_wellbeing",
+   "description": "Estimated share of rent that ends up as landlord profit, using each rental parcel's assessed market value as the mortgage basis.",
+   "source": "rentrate / Cook County Assessor + ACS",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "landmark_count",
+   "label": "Landmarks",
+   "category": "culture",
+   "description": "Mapped landmarks assigned to the ward.",
+   "source": "OpenStreetMap / Overpass API",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "laundromats_per_10000_residents",
+   "label": "Laundromats & drycleaners",
+   "category": "material_wellbeing",
+   "description": "Coin-operated laundries and drycleaners per 10,000 residents — annual County Business Patterns establishments.",
+   "source": "County Business Patterns (Census Bureau)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "library_count",
+   "label": "Libraries",
+   "category": "lifelong_learning",
+   "description": "Mapped libraries assigned to the ward.",
+   "source": "OpenStreetMap / Overpass API",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "licensed_amusement_venues_per_10000_residents",
+   "label": "Entertainment Venues (Licensed)",
+   "category": "culture",
+   "description": "Licensed public places of amusement per 10,000 residents — theaters, music halls, event venues.",
+   "source": "Chicago business licenses (BACP)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "licensed_auto_services_per_10000_residents",
+   "label": "Auto services (licensed)",
+   "category": "community_vitality",
+   "description": "Licensed motor-vehicle service businesses per 10,000 residents — repair shops, tire shops, and related trades.",
+   "source": "Chicago business licenses (BACP)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "licensed_bars_per_10000_residents",
+   "label": "Bars & taverns (business licences)",
+   "category": "community_vitality",
+   "description": "Licensed taverns per 10,000 residents — places where drink is the main business.",
+   "source": "Chicago business licenses (BACP)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "licensed_businesses_total_per_10000_residents",
+   "label": "All businesses (business licences)",
+   "category": "community_vitality",
+   "description": "Every licensed business per 10,000 residents — the area's whole commercial base in one line.",
+   "source": "Chicago business licenses (BACP)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "licensed_chain_restaurant_share_pct",
+   "label": "Chain restaurant share (business licences)",
+   "category": "community_vitality",
+   "description": "Share of licensed restaurants that are chain outlets rather than independents.",
+   "source": "Chicago business licenses (BACP)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "licensed_chain_store_share_pct",
+   "label": "Chain store share (business licences)",
+   "category": "community_vitality",
+   "description": "Share of licensed food stores that are chain outlets rather than independents.",
+   "source": "Chicago business licenses (BACP)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "licensed_child_care_per_10000_residents",
+   "label": "Child care centers (business licences)",
+   "category": "community_vitality",
+   "description": "Licensed child care centers per 10,000 residents.",
+   "source": "Chicago business licenses (BACP)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "licensed_coffee_shops_per_10000_residents",
+   "label": "Coffee shops (business licences)",
+   "category": "community_vitality",
+   "description": "Licensed coffee and tea shops per 10,000 residents.",
+   "source": "Chicago business licenses (BACP)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "licensed_food_businesses_per_10000_residents",
+   "label": "Food Businesses (Licensed)",
+   "category": "community_vitality",
+   "description": "Licensed food businesses per 10,000 residents — restaurants, cafés, groceries, delis and bakeries alike.",
+   "source": "Chicago business licenses (BACP)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "licensed_grocery_stores_per_10000_residents",
+   "label": "Grocery stores (business licences)",
+   "category": "health",
+   "description": "Licensed grocery stores and food markets per 10,000 residents.",
+   "source": "Chicago business licenses (BACP)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "licensed_gyms_per_10000_residents",
+   "label": "Gyms & fitness (business licences)",
+   "category": "health",
+   "description": "Licensed gyms and fitness businesses per 10,000 residents.",
+   "source": "Chicago business licenses (BACP)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "licensed_major_chain_restaurant_share_pct",
+   "label": "Major chain restaurant share (business licences)",
+   "category": "community_vitality",
+   "description": "Share of licensed restaurants belonging to one of the 100 largest chains.",
+   "source": "Chicago business licenses (BACP)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "licensed_major_chain_store_share_pct",
+   "label": "Major chain store share (business licences)",
+   "category": "community_vitality",
+   "description": "Share of licensed food stores belonging to one of the 100 largest store chains.",
+   "source": "Chicago business licenses (BACP)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "licensed_music_dance_per_10000_residents",
+   "label": "Music & Dance Venues (Licensed)",
+   "category": "culture",
+   "description": "Licensed small music and dance venues per 10,000 residents.",
+   "source": "Chicago business licenses (BACP)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "licensed_outdoor_patios_per_10000_residents",
+   "label": "Outdoor Patios (Licensed)",
+   "category": "community_vitality",
+   "description": "Licensed outdoor patios per 10,000 residents — street-facing seating at bars and restaurants.",
+   "source": "Chicago business licenses (BACP)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "licensed_packaged_liquor_per_10000_residents",
+   "label": "Packaged liquor stores (business licences)",
+   "category": "community_vitality",
+   "description": "Licensed packaged-liquor sellers per 10,000 residents.",
+   "source": "Chicago business licenses (BACP)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "licensed_pawnbrokers_per_10000_residents",
+   "label": "Pawnbrokers (licensed)",
+   "category": "material_wellbeing",
+   "description": "Licensed pawnbrokers per 10,000 residents.",
+   "source": "Chicago business licenses (BACP)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "licensed_restaurants_liquor_per_10000_residents",
+   "label": "Restaurants Serving Liquor (Licensed)",
+   "category": "community_vitality",
+   "description": "Licensed restaurants serving liquor per 10,000 residents.",
+   "source": "Chicago business licenses (BACP)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "licensed_secondhand_dealers_per_10000_residents",
+   "label": "Secondhand dealers (licensed)",
+   "category": "material_wellbeing",
+   "description": "Licensed secondhand dealers per 10,000 residents — resale, thrift, and used-goods shops.",
+   "source": "Chicago business licenses (BACP)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "licensed_tobacco_retail_per_10000_residents",
+   "label": "Tobacco Retailers (Licensed)",
+   "category": "health",
+   "description": "Licensed tobacco retailers per 10,000 residents.",
+   "source": "Chicago business licenses (BACP)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "linguistic_diversity",
+   "label": "Linguistic Diversity",
+   "category": "culture",
+   "description": "Variety of home languages spoken in the area.",
+   "source": "American Community Survey 5-year estimates",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "liquor_stores_per_10000_residents",
+   "label": "Packaged liquor stores (County Business Patterns)",
+   "category": "community_vitality",
+   "description": "Beer, wine, and liquor stores per 10,000 residents — annual County Business Patterns establishments.",
+   "source": "County Business Patterns (Census Bureau)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "living_alone_households_pct",
+   "label": "Living Alone",
+   "category": "social_connectedness",
+   "description": "Share of households where the householder lives alone.",
+   "source": "American Community Survey 5-year estimates",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "long_commute_pct",
+   "label": "Long Commutes",
+   "category": "time_balance",
+   "description": "Workers with commute times of 45 minutes or longer.",
+   "source": "American Community Survey 5-year estimates",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "massage_places_per_10000_residents",
+   "label": "Massage & bodywork",
+   "category": "psychological_wellbeing",
+   "description": "Massage and bodywork places per 10,000 residents.",
+   "source": "Quarterly Google Maps sweep (Apify)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "median_gross_rent",
+   "label": "Rent (ACS, rents paid)",
+   "category": "material_wellbeing",
+   "description": "Median gross rent for renter-occupied units paying cash rent.",
+   "source": "American Community Survey 5-year estimates",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "median_household_income",
+   "label": "Income",
+   "category": "material_wellbeing",
+   "description": "Median household income in inflation-adjusted dollars.",
+   "source": "American Community Survey 5-year estimates",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "median_household_income_1yr",
+   "label": "Income (1-yr)",
+   "category": "material_wellbeing",
+   "description": "Median household income estimated from single-year ACS PUMA data — the most current income signal, at coarse geography.",
+   "source": "American Community Survey 1-year estimates (PUMA)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "mental_health_providers_per_10000_residents",
+   "label": "Mental Health Providers",
+   "category": "psychological_wellbeing",
+   "description": "Google-visible therapists, psychologists, psychiatrists, and clinics per 10,000 residents.",
+   "source": "Google Maps via Apify third-places sweeps",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "menu_active_transport_share",
+   "label": "Menu $ on active transport",
+   "category": "physical_environment",
+   "description": "Share of the ward's ~$1.5M menu money spent on bike/pedestrian/street-redesign projects (vs. the car-oriented default), latest full year — a clean signal of ward priorities.",
+   "source": "Chicago CIP aldermanic menu PDFs (ward-wise/data-analysis pipeline)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "menu_alleys_share",
+   "label": "Menu $ on alleys",
+   "category": "good_governance",
+   "description": "Share of the ward's aldermanic menu money spent on alley resurfacing and repair.",
+   "source": "Chicago CIP aldermanic menu PDFs (ward-wise/data-analysis pipeline)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "menu_budget_utilization",
+   "label": "Menu budget used",
+   "category": "good_governance",
+   "description": "Share of the ward's ~$1.5M annual menu allotment actually committed to projects in the latest full year (high = capital deployed, low = left idle).",
+   "source": "Chicago CIP aldermanic menu PDFs (ward-wise/data-analysis pipeline)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "menu_cameras_share",
+   "label": "Menu $ on cameras",
+   "category": "good_governance",
+   "description": "Share of the ward's aldermanic menu money spent on surveillance cameras and their mounting poles.",
+   "source": "Chicago CIP aldermanic menu PDFs (ward-wise/data-analysis pipeline)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "menu_lighting_share",
+   "label": "Menu $ on lighting",
+   "category": "good_governance",
+   "description": "Share of the ward's aldermanic menu money spent on street and alley lighting.",
+   "source": "Chicago CIP aldermanic menu PDFs (ward-wise/data-analysis pipeline)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "menu_parks_share",
+   "label": "Menu $ on parks",
+   "category": "good_governance",
+   "description": "Share of the ward's aldermanic menu money spent on park improvements.",
+   "source": "Chicago CIP aldermanic menu PDFs (ward-wise/data-analysis pipeline)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "menu_project_diversity",
+   "label": "Menu project diversity",
+   "category": "good_governance",
+   "description": "How varied the ward's menu spending is across project categories (1 − Herfindahl, 0–100). Descriptive — neither concentration nor variety is inherently better.",
+   "source": "Chicago CIP aldermanic menu PDFs (ward-wise/data-analysis pipeline)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "menu_schools_share",
+   "label": "Menu $ on schools",
+   "category": "good_governance",
+   "description": "Share of the ward's aldermanic menu money spent on school improvements.",
+   "source": "Chicago CIP aldermanic menu PDFs (ward-wise/data-analysis pipeline)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "menu_sidewalks_share",
+   "label": "Menu $ on sidewalks",
+   "category": "good_governance",
+   "description": "Share of the ward's aldermanic menu money spent on sidewalk repair.",
+   "source": "Chicago CIP aldermanic menu PDFs (ward-wise/data-analysis pipeline)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "menu_spending_spread",
+   "label": "Menu spending spread",
+   "category": "good_governance",
+   "description": "How geographically dispersed menu spending is, adjusted for the ward's own size and shape (100 = as dispersed as a uniform ward, below 100 = concentrated). Descriptive.",
+   "source": "Chicago CIP aldermanic menu PDFs, geocoded (ward-wise/data-analysis pipeline)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "menu_streets_share",
+   "label": "Menu $ on street resurfacing",
+   "category": "good_governance",
+   "description": "Share of the ward's aldermanic menu money spent on street resurfacing.",
+   "source": "Chicago CIP aldermanic menu PDFs (ward-wise/data-analysis pipeline)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "metrics_submitted_count",
+   "label": "Metrics Submitted",
+   "category": "good_governance",
+   "description": "Resident metric ideas submitted to Ward Wise Explorer from the ward.",
+   "source": "Ward Wise Explorer metric submissions",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "modeled_attendance_index",
+   "label": "Religious attendance (modeled)",
+   "category": "religion_spiritual",
+   "description": "A modeled estimate of religious-service attendance (0–100) given the area's demographic and circumstantial composition. Not an observed local survey or a count of congregations.",
+   "source": "General Social Survey, small-area estimated",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "modeled_fear_walking_pct",
+   "label": "Fear of walking at night (modeled)",
+   "category": "psychological_wellbeing",
+   "description": "Modeled share of adults expected to report being afraid to walk alone at night near home — a perceived-safety estimate, not a crime statistic or local survey.",
+   "source": "General Social Survey, small-area estimated",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "modeled_financial_satisfaction_pct",
+   "label": "Satisfied with finances % (modeled)",
+   "category": "material_wellbeing",
+   "description": "Modeled share of adults expected to report being satisfied with their present financial situation, given the area's circumstantial composition. A synthetic estimate, not an observed survey.",
+   "source": "General Social Survey, small-area estimated",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "modeled_god_certain_pct",
+   "label": "Certain God exists % (modeled)",
+   "category": "religion_spiritual",
+   "description": "Modeled share of adults expected to say they know God exists with no doubts, given the area's demographic and circumstantial composition. A synthetic estimate, not an observed survey.",
+   "source": "General Social Survey, small-area estimated",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "modeled_happiness_index",
+   "label": "Happiness (modeled)",
+   "category": "psychological_wellbeing",
+   "description": "A modeled estimate of subjective happiness (0–100) given the area's circumstantial composition — income, marital/household status, employment, home ownership, and health. Not an observed local survey.",
+   "source": "General Social Survey, small-area estimated",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "modeled_leisure_minutes",
+   "label": "Daily leisure time (modeled)",
+   "category": "time_balance",
+   "description": "Modeled average minutes of daily leisure — socializing, relaxing, TV, sports and exercise — expected given the area's circumstantial composition. A synthetic estimate, not a local time-diary survey.",
+   "source": "American Time Use Survey, small-area estimated",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "modeled_life_exciting_pct",
+   "label": "Life feels exciting % (modeled)",
+   "category": "psychological_wellbeing",
+   "description": "Modeled share of adults expected to describe their life as exciting (vs routine or dull), given the area's circumstantial composition. A synthetic estimate, not an observed survey.",
+   "source": "General Social Survey, small-area estimated",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "modeled_no_religion_pct",
+   "label": "No religious affiliation % (modeled)",
+   "category": "religion_spiritual",
+   "description": "Modeled share of adults expected to report no religious affiliation, given the area's demographic and circumstantial composition. A synthetic estimate, not an observed survey.",
+   "source": "General Social Survey, small-area estimated",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "modeled_pct_very_happy",
+   "label": "Very happy % (modeled)",
+   "category": "psychological_wellbeing",
+   "description": "Modeled share of adults expected to report being 'very happy' given the area's circumstantial composition. A synthetic estimate, not an observed survey.",
+   "source": "General Social Survey, small-area estimated",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "modeled_social_trust_pct",
+   "label": "Social trust (modeled)",
+   "category": "community_vitality",
+   "description": "Modeled share of adults expected to say most people can be trusted, given the area's circumstantial composition. A synthetic estimate, not an observed survey.",
+   "source": "General Social Survey, small-area estimated",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "modeled_strong_affiliation_pct",
+   "label": "Strongly religious % (modeled)",
+   "category": "religion_spiritual",
+   "description": "Modeled share of adults expected to call their religious affiliation strong, given the area's demographic and circumstantial composition. A synthetic estimate, not an observed survey.",
+   "source": "General Social Survey, small-area estimated",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "modeled_time_poverty_pct",
+   "label": "Time poverty (modeled)",
+   "category": "time_balance",
+   "description": "Modeled share of adults expected to get under two hours of daily leisure — the time-poor. A synthetic estimate, not a local survey.",
+   "source": "American Time Use Survey, small-area estimated",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "modeled_weekly_attendance_pct",
+   "label": "Weekly attenders % (modeled)",
+   "category": "religion_spiritual",
+   "description": "Modeled share of adults expected to attend religious services nearly weekly or more, given the area's demographic and circumstantial composition. A synthetic estimate, not an observed survey.",
+   "source": "General Social Survey, small-area estimated",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "modeled_weekly_bar_pct",
+   "label": "At a bar weekly % (modeled)",
+   "category": "social_connectedness",
+   "description": "Modeled share of adults expected to visit a bar or tavern weekly or more. The most caveated of the modeled socializing metrics — mostly a density gradient.",
+   "source": "General Social Survey, small-area estimated",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "modeled_weekly_friends_pct",
+   "label": "Sees friends weekly % (modeled)",
+   "category": "social_connectedness",
+   "description": "Modeled share of adults expected to spend an evening with friends weekly or more, given the area's circumstantial composition and density. Synthetic estimate.",
+   "source": "General Social Survey, small-area estimated",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "modeled_weekly_neighbors_pct",
+   "label": "Socializes with neighbors weekly % (modeled)",
+   "category": "social_connectedness",
+   "description": "Modeled share of adults expected to spend an evening with neighbors weekly or more, given the area's circumstantial composition and density. Synthetic estimate.",
+   "source": "General Social Survey, small-area estimated",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "multilingual_share_pct",
+   "label": "Multilingual Homes",
+   "category": "lifelong_learning",
+   "description": "Residents speaking a non-English language at home.",
+   "source": "American Community Survey 5-year estimates",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "museum_count",
+   "label": "Museums",
+   "category": "culture",
+   "description": "Mapped museums assigned to the ward.",
+   "source": "OpenStreetMap / Overpass API",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "nearest_bar_miles",
+   "label": "Distance to nearest bar",
+   "category": "community_vitality",
+   "description": "How far the closest bar is, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "nearest_coffee_shop_miles",
+   "label": "Distance to nearest coffee shop",
+   "category": "community_vitality",
+   "description": "How far the closest coffee shop is, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "nearest_college_miles",
+   "label": "Distance to nearest college",
+   "category": "lifelong_learning",
+   "description": "How far the closest college is, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "nearest_cooling_center_miles",
+   "label": "Distance to nearest cooling center",
+   "category": "physical_environment",
+   "description": "How far the closest cooling center is, averaged over points inside the area.",
+   "source": "City cooling center list, indoor sites only (city portal msrk-w9ih)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "nearest_cta_rail_station_miles",
+   "label": "Distance to nearest CTA 'L' station",
+   "category": "community_vitality",
+   "description": "How far the closest CTA 'L' station is, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "nearest_grocery_miles",
+   "label": "Distance to nearest grocery store",
+   "category": "health",
+   "description": "How far the closest grocery store is, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "nearest_gym_miles",
+   "label": "Distance to nearest gym",
+   "category": "health",
+   "description": "How far the closest gym is, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "nearest_library_miles",
+   "label": "Distance to nearest library",
+   "category": "lifelong_learning",
+   "description": "How far the closest library is, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "nearest_park_miles",
+   "label": "Distance to nearest park",
+   "category": "physical_environment",
+   "description": "How far the closest park is, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "nearest_pharmacy_miles",
+   "label": "Distance to nearest pharmacy",
+   "category": "health",
+   "description": "How far the closest pharmacy is, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "nearest_restaurant_miles",
+   "label": "Distance to nearest restaurant",
+   "category": "community_vitality",
+   "description": "How far the closest restaurant is, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "nearest_school_miles",
+   "label": "Distance to nearest public school",
+   "category": "lifelong_learning",
+   "description": "How far the closest public school is, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "nearest_worship_miles",
+   "label": "Distance to nearest place of worship",
+   "category": "religion_spiritual",
+   "description": "How far the closest place of worship is, averaged over points inside the area.",
+   "source": "Quarterly third-places sweep (Google Maps via Apify), curated POI layer, CTA 'L' stops, CPS school locations and IPEDS colleges",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "neighbor_collective_action_pct",
+   "label": "Collective Action",
+   "category": "social_connectedness",
+   "description": "Modeled share of adults who work with neighbors on something positive for their neighborhood or community.",
+   "source": "CPS Civic Engagement and Volunteering Supplement / ACS covariates",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "neighbor_contact_monthly_pct",
+   "label": "Neighbor Contact",
+   "category": "social_connectedness",
+   "description": "Modeled share of adults who talk or spend time with neighbors at least monthly.",
+   "source": "CPS Civic Engagement and Volunteering Supplement / ACS covariates",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "neighbor_favor_exchange_monthly_pct",
+   "label": "Neighbor Favors",
+   "category": "social_connectedness",
+   "description": "Modeled share of adults who exchange favors with neighbors at least monthly.",
+   "source": "CPS Civic Engagement and Volunteering Supplement / ACS covariates",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "new_residential_construction_investment_usd",
+   "label": "Housing Construction Investment",
+   "category": "physical_environment",
+   "description": "Reported construction cost of new residential building permits issued each year.",
+   "source": "Chicago Data Portal Building Permits",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "new_residential_construction_permits_count",
+   "label": "New Housing Permits",
+   "category": "physical_environment",
+   "description": "Likely residential new-construction building permits issued each year.",
+   "source": "Chicago Data Portal Building Permits",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "new_residential_units_permitted_est",
+   "label": "New Homes Permitted (est.)",
+   "category": "physical_environment",
+   "description": "Estimated new dwelling units permitted each year.",
+   "source": "Chicago Data Portal Building Permits",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "noise_complaints_per_10000",
+   "label": "Noise Complaints",
+   "category": "physical_environment",
+   "description": "Noise complaints to the city per 10,000 residents each year.",
+   "source": "Chicago Department of Public Health environmental complaints (city portal)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "nonroutine_bills_sponsored_current_session",
+   "label": "Bills Sponsored",
+   "category": "good_governance",
+   "description": "Non-routine bills sponsored by alders associated with the ward in the configured Councilmatic session.",
+   "source": "Chicago Councilmatic",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "nrhp_listings_count",
+   "label": "National Register listings",
+   "category": "culture",
+   "description": "National Register of Historic Places entries (districts and individual listings) in the area.",
+   "source": "National Register of Historic Places (Chicago portal extract)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "observed_asking_rent_usd",
+   "label": "Rent (Zillow ZORI, asking)",
+   "category": "material_wellbeing",
+   "description": "Typical monthly asking rent for homes listed for rent.",
+   "source": "Zillow Observed Rent Index (ZORI)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "offstreet_parking_sites_per_sqkm",
+   "label": "Parking lots",
+   "category": "physical_environment",
+   "description": "Mapped off-street parking lots and garages per square km (does not include street parking).",
+   "source": "parkability / OpenStreetMap",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "open_late_per_10000_residents",
+   "label": "Open Late",
+   "category": "community_vitality",
+   "description": "Gathering places open at 9pm on weekdays, per 10,000 residents.",
+   "source": "Google Maps via Apify third-places sweeps",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "overdose_deaths_per_10000",
+   "label": "Opioid Overdose Deaths",
+   "category": "health",
+   "description": "Deaths the Cook County Medical Examiner flagged as opioid-related, per 10,000 residents each year.",
+   "source": "Cook County Medical Examiner case archive",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "park_acres_per_10000_residents",
+   "label": "Park Access",
+   "category": "physical_environment",
+   "description": "Chicago Park District acres available per 10,000 residents.",
+   "source": "Chicago Park District parks data plus ACS population estimates",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "park_count",
+   "label": "Parks",
+   "category": "physical_environment",
+   "description": "Mapped parks assigned to the ward.",
+   "source": "OpenStreetMap / Overpass API",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "park_fountain_lead_flagged_pct",
+   "label": "Water Fountain Lead",
+   "category": "health",
+   "description": "Share of Chicago Park District park fountain sites with any historically elevated lead result.",
+   "source": "Should I Drink Here?",
+   "nominator_first_name": "Scott"
+  },
+  {
+   "metric_id": "park_programs_per_10000",
+   "label": "Park District Programs",
+   "category": "culture",
+   "description": "Park District classes and activities currently listed in the area, per 10,000 residents.",
+   "source": "Chicago Park District activities (city portal)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "parking_311_complaints_per_sqkm",
+   "label": "Parking Complaints",
+   "category": "good_governance",
+   "description": "Abandoned-vehicle and bike-lane parking 311 complaints per square km (since 2023).",
+   "source": "parkability / Chicago 311",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "parking_311_share_of_local_complaints_pct",
+   "label": "Parking Difficulty",
+   "category": "time_balance",
+   "description": "How contested parking is, proxied by parking complaints' share of all local 311 activity.",
+   "source": "parkability / Chicago 311",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "participatory_budgeting",
+   "label": "Participatory budgeting",
+   "category": "good_governance",
+   "description": "Whether the ward lets residents vote on its menu-money spending (participatory budgeting); at finer geographies, the share of the area governed by a PB ward.",
+   "source": "UIC Great Cities Institute; City Cast Chicago; ward sites",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "pedestrian_cyclist_crashes_count",
+   "label": "Pedestrian & cyclist crashes",
+   "category": "community_vitality",
+   "description": "Crashes where the first impact was with a person walking or biking.",
+   "source": "Traffic Crashes (Chicago Police via city portal)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "per_pupil_spending",
+   "label": "Per-Pupil Spending",
+   "category": "lifelong_learning",
+   "description": "Site-level school spending per student, enrollment-weighted.",
+   "source": "Illinois Report Card / CPS",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "permit_zone_block_faces_per_sqkm",
+   "label": "Permit-Zone Density",
+   "category": "physical_environment",
+   "description": "Residential permit-zone block faces per square km (parking scarcity signal).",
+   "source": "parkability / Chicago Residential Permit Zones",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "pharmacies_per_10000_residents",
+   "label": "Pharmacies",
+   "category": "health",
+   "description": "Pharmacies and drug stores per 10,000 residents — annual County Business Patterns establishments.",
+   "source": "County Business Patterns (Census Bureau)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "physical_inactivity_pct",
+   "label": "Inactivity",
+   "category": "health",
+   "description": "Adults reporting no leisure-time physical activity.",
+   "source": "CDC PLACES",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "places_of_interest_count",
+   "label": "Places",
+   "category": "community_vitality",
+   "description": "Mapped civic, cultural, and public places assigned to the ward.",
+   "source": "OpenStreetMap / Overpass API",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "pm25_sensor_annual_ugm3",
+   "label": "Fine Particles (citizen sensors)",
+   "category": "physical_environment",
+   "description": "Annual mean PM2.5 (µg/m³) from citizen sensors with the EPA correction, smoothed to the area.",
+   "source": "PurpleAir sensor network",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "poor_or_fair_health_pct",
+   "label": "Poor/Fair Health",
+   "category": "health",
+   "description": "Adults reporting fair or poor general health.",
+   "source": "CDC PLACES",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "poverty_pct",
+   "label": "Poverty Rate",
+   "category": "material_wellbeing",
+   "description": "Residents whose income in the past 12 months is below the poverty level.",
+   "source": "American Community Survey 5-year estimates",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "property_crime_rate_per_10000",
+   "label": "Property Crime",
+   "category": "community_vitality",
+   "description": "Reported property crimes per 10,000 residents: theft, burglary, motor vehicle theft, robbery, arson and criminal damage, the FBI's NIBRS crimes against property (fraud is left out: it is recorded where it's reported, not where it happened).",
+   "source": "Chicago Data Portal crime records and ACS population estimates",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "public_transit_pct",
+   "label": "Public Transit",
+   "category": "time_balance",
+   "description": "Workers commuting by public transportation, excluding taxicabs.",
+   "source": "American Community Survey 5-year estimates",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "purpleair_sensors_per_10000_residents",
+   "label": "Citizen Air Sensors",
+   "category": "good_governance",
+   "description": "PurpleAir sensors per 10,000 residents: households publishing their own air and temperature readings.",
+   "source": "PurpleAir sensor network",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "real_estate_sales_usd",
+   "label": "Real-estate sales",
+   "category": "material_wellbeing",
+   "description": "Recorded property sale dollars per year at parcel precision — transaction spending with only a recording lag.",
+   "source": "Cook County Assessor parcel sales",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "rent_burdened_households_pct",
+   "label": "Rent Burden",
+   "category": "material_wellbeing",
+   "description": "Renter households spending 30 percent or more of household income on gross rent.",
+   "source": "American Community Survey 5-year estimates",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "residential_renovation_investment_usd",
+   "label": "Renovation investment",
+   "category": "physical_environment",
+   "description": "Reported construction cost of residential renovation permits — reinvestment in existing housing.",
+   "source": "Chicago Data Portal Building Permits",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "residential_renovation_permits_count",
+   "label": "Home Renovation Permits",
+   "category": "physical_environment",
+   "description": "Likely residential renovation and alteration permits issued each year.",
+   "source": "Chicago Data Portal Building Permits",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "residents_near_alpr_pct",
+   "label": "Near a Plate Reader",
+   "category": "good_governance",
+   "description": "Share of residents who live within a quarter mile of a license-plate-reading camera.",
+   "source": "panopticounts",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "restaurants_per_10000_residents",
+   "label": "Restaurants (County Business Patterns)",
+   "category": "community_vitality",
+   "description": "Table-service restaurants per 10,000 residents — annual County Business Patterns establishments.",
+   "source": "County Business Patterns (Census Bureau)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "rezonings_passed_per_km2",
+   "label": "Rezonings Passed",
+   "category": "good_governance",
+   "description": "Zoning map changes the City Council passed per square kilometer in the year.",
+   "source": "zonewise",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "rezonings_to_multifamily_share",
+   "label": "Multifamily Rezonings",
+   "category": "material_wellbeing",
+   "description": "Of the year's rezonings, the share that newly allowed apartment buildings (3+ units).",
+   "source": "zonewise",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "rezonings_upzoning_share",
+   "label": "Upzoning Share",
+   "category": "material_wellbeing",
+   "description": "Of the year's rezonings, the share that raised how much building the lot allows.",
+   "source": "zonewise",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "rideshare_fares_usd",
+   "label": "Ride-share spending",
+   "category": "material_wellbeing",
+   "description": "Dollars spent on ride-share trips starting in the area per year — consumer spending, current to about five weeks.",
+   "source": "Transportation Network Provider trip records (City of Chicago)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "sbif_grant_dollars",
+   "label": "Small Business Grant Dollars",
+   "category": "material_wellbeing",
+   "description": "Dollars of Small Business Improvement Fund grants approved in the area each year.",
+   "source": "Chicago Small Business Improvement Fund grants (city portal)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "sbif_grants_count",
+   "label": "Small Business Grants",
+   "category": "material_wellbeing",
+   "description": "Small Business Improvement Fund grants approved in the area each year.",
+   "source": "Chicago Small Business Improvement Fund grants (city portal)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "school_proficiency_pct",
+   "label": "School Proficiency",
+   "category": "lifelong_learning",
+   "description": "Students meeting ELA/math state standards at area schools.",
+   "source": "Illinois Report Card / CPS",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "scofflaw_buildings_listed_count",
+   "label": "Scofflaw Buildings Listed",
+   "category": "good_governance",
+   "description": "Buildings added to the city's Building Code Scofflaw List each year.",
+   "source": "Chicago Building Code Scofflaw List (city portal)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "sewer_cave_in_requests_per_10000_residents",
+   "label": "Sewer Cave-Ins",
+   "category": "physical_environment",
+   "description": "Sewer cave-in inspection requests per 10,000 residents.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "sewer_cleaning_requests_per_10000_residents",
+   "label": "Sewer Cleaning",
+   "category": "physical_environment",
+   "description": "Sewer cleaning inspection requests per 10,000 residents.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "sewer_requests_per_10000_residents",
+   "label": "Sewer Trouble",
+   "category": "physical_environment",
+   "description": "Sewer cleaning and cave-in inspection requests per 10,000 residents.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "shooting_victims_per_10000",
+   "label": "Shooting Victims",
+   "category": "community_vitality",
+   "description": "People shot (killed or wounded) per 10,000 residents each year, from CPD's victims file.",
+   "source": "Chicago Police violence reduction victims (city portal)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "short_sleep_pct",
+   "label": "Short Sleep",
+   "category": "time_balance",
+   "description": "Share of adults sleeping less than 7 hours on average.",
+   "source": "CDC PLACES",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "social_capital_civic_engagement_index",
+   "label": "Civic Engagement",
+   "category": "social_connectedness",
+   "description": "ZIP/ZCTA proxy for volunteering and civic participation.",
+   "source": "Social Capital Atlas",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "social_capital_cohesion_index",
+   "label": "Social Cohesion",
+   "category": "social_connectedness",
+   "description": "ZIP/ZCTA proxy for cohesive local social networks.",
+   "source": "Social Capital Atlas",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "social_emotional_support_pct",
+   "label": "Social Support",
+   "category": "social_connectedness",
+   "description": "Share of adults estimated to have needed social and emotional support.",
+   "source": "CDC PLACES",
+   "nominator_first_name": "Judy"
+  },
+  {
+   "metric_id": "speed_camera_tickets_per_10000",
+   "label": "Speed Camera Tickets",
+   "category": "community_vitality",
+   "description": "Speed camera tickets issued per 10,000 residents each year. Reflects where the cameras are as much as how fast people drive.",
+   "source": "Chicago speed camera violations (city portal)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "street_flooding_complaints_per_10000_residents",
+   "label": "Street Flooding",
+   "category": "physical_environment",
+   "description": "Water-on-street 311 requests per 10,000 residents.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "summer_day_sensor_temp_c",
+   "label": "Summer Afternoon Sensor Temperature",
+   "category": "physical_environment",
+   "description": "Typical noon–3 pm summer reading from citizen sensors (°C). Sun-exposed housings run hot; read as a heat-exposure signal, not air temperature.",
+   "source": "PurpleAir + Landsat",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "summer_night_air_temp_c",
+   "label": "Summer Night Air Temperature",
+   "category": "physical_environment",
+   "description": "Typical 2–5 am summer air temperature (°C), smoothed from citizen sensors and airport stations.",
+   "source": "PurpleAir + NOAA ASOS + Landsat",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "summer_night_humidity_pct",
+   "label": "Summer Night Humidity",
+   "category": "physical_environment",
+   "description": "Typical 2–5 am summer relative humidity (%), smoothed from citizen sensors and airport stations.",
+   "source": "PurpleAir + NOAA ASOS",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "summer_solstice_sun_access_pct",
+   "label": "Summer Sun",
+   "category": "physical_environment",
+   "description": "Ground-level direct-sun share on the summer solstice (June 21).",
+   "source": "sunscore / Cook County LiDAR",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "summer_surface_temp_c",
+   "label": "Summer Surface Temperature",
+   "category": "physical_environment",
+   "description": "Typical summer late-morning ground and roof temperature from Landsat, not air temperature (°C).",
+   "source": "USGS Landsat via Microsoft Planetary Computer",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "summer_surface_temp_p95_c",
+   "label": "Hottest Surfaces",
+   "category": "physical_environment",
+   "description": "What the area's hottest 5% of ground and roofs reach in a typical summer late morning, not air temperature (°C).",
+   "source": "USGS Landsat via Microsoft Planetary Computer",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "third_places_per_10000_residents",
+   "label": "Third Places",
+   "category": "community_vitality",
+   "description": "Gathering places — cafés, bars, restaurants, gyms, bookstores — per 10,000 residents.",
+   "source": "Google Maps via Apify third-places sweeps",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "total_establishments_per_10000_residents",
+   "label": "All businesses (County Business Patterns)",
+   "category": "community_vitality",
+   "description": "Employer establishments of every industry per 10,000 residents — annual County Business Patterns establishments.",
+   "source": "County Business Patterns (Census Bureau)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "trade_schools_count",
+   "label": "Trade & Vocational Schools",
+   "category": "lifelong_learning",
+   "description": "Certificate schools of less than two years located here.",
+   "source": "IPEDS (NCES)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "traffic_crash_injuries_count",
+   "label": "Traffic injuries",
+   "category": "community_vitality",
+   "description": "People injured in police-reported traffic crashes in the area each year.",
+   "source": "Traffic Crashes (Chicago Police via city portal)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "traffic_fatal_serious_injuries_count",
+   "label": "Traffic Deaths & Serious Injuries",
+   "category": "community_vitality",
+   "description": "People killed or incapacitated in police-reported traffic crashes each year.",
+   "source": "Traffic Crashes (Chicago Police via city portal)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "tree_planting_requests_per_10000_residents",
+   "label": "Tree Planting Requests",
+   "category": "physical_environment",
+   "description": "311 parkway tree planting requests per 10,000 residents.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "uninsured_pct",
+   "label": "Uninsured",
+   "category": "health",
+   "description": "Civilian noninstitutionalized residents without health insurance coverage.",
+   "source": "American Community Survey 5-year estimates",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "vacant_building_complaints_per_10000_residents",
+   "label": "Vacant Building Complaints",
+   "category": "physical_environment",
+   "description": "311 vacant or abandoned building complaints per 10,000 residents.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "vacant_lot_cleanup_requests_per_10000_residents",
+   "label": "Vacant Lot Cleanup Requests",
+   "category": "physical_environment",
+   "description": "311 requests to clean a vacant lot per 10,000 residents.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "vehicles_per_household",
+   "label": "Cars per Household",
+   "category": "physical_environment",
+   "description": "Average vehicles available per household (parking demand).",
+   "source": "parkability / Census ACS",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "violent_crime_rate_per_10000",
+   "label": "Violent Crime",
+   "category": "community_vitality",
+   "description": "Reported violent crimes per 10,000 residents. Violent follows the FBI's NIBRS standard — homicide, sexual assault, assault, battery — which classes robbery as a crime against property (the older UCR summary index counted robbery as violent).",
+   "source": "Chicago Data Portal crime records and ACS population estimates",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "voter_turnout_pct",
+   "label": "Voter Turnout",
+   "category": "good_governance",
+   "description": "Ballots cast as a share of registered voters.",
+   "source": "Chicago municipal election results via DataMade / Chicago Board of Elections",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "water_lead_test_requests_per_10000_residents",
+   "label": "Water Lead Test Requests",
+   "category": "health",
+   "description": "Free water lead test kit and visit requests per 10,000 residents.",
+   "source": "Chicago 311 service requests",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "winter_solstice_sun_access_pct",
+   "label": "Winter Sun",
+   "category": "physical_environment",
+   "description": "Ground-level direct-sun share on the winter solstice (December 21), when shadows are longest.",
+   "source": "sunscore / Cook County LiDAR",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "worship_denominational_diversity",
+   "label": "Faith Diversity",
+   "category": "religion_spiritual",
+   "description": "Variety of religious traditions among the area's houses of worship.",
+   "source": "Google Maps via Apify third-places sweeps",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "worship_places_median_rating",
+   "label": "Worship Rating",
+   "category": "religion_spiritual",
+   "description": "Median Google rating of the area's houses of worship.",
+   "source": "Google Maps via Apify third-places sweeps",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "worship_places_per_10000_residents",
+   "label": "Worship Places",
+   "category": "religion_spiritual",
+   "description": "Houses of worship per 10,000 residents, across every tradition.",
+   "source": "Google Maps via Apify third-places sweeps",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "worship_places_top_rated_count",
+   "label": "Beloved Congregations",
+   "category": "religion_spiritual",
+   "description": "Worship places rated 4.8+ with 25+ reviews.",
+   "source": "Google Maps via Apify third-places sweeps",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "worship_reviews_per_10000_residents",
+   "label": "Worship Engagement",
+   "category": "religion_spiritual",
+   "description": "Google reviews of worship places per 10,000 residents.",
+   "source": "Google Maps via Apify third-places sweeps",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "yoga_studios_per_10000_residents",
+   "label": "Yoga & pilates studios",
+   "category": "psychological_wellbeing",
+   "description": "Yoga and pilates studios per 10,000 residents.",
+   "source": "Quarterly Google Maps sweep (Apify)",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "zoned_business_commercial_pct",
+   "label": "Business Zoning",
+   "category": "community_vitality",
+   "description": "Share of the area's zoned land in business or commercial districts, where shops and offices may go.",
+   "source": "zonewise",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "zoned_capacity_added_sqft_per_km2",
+   "label": "Zoned Capacity Added",
+   "category": "material_wellbeing",
+   "description": "Net floor area that the year's rezonings added to what the zoning allows, in square feet per km².",
+   "source": "zonewise",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "zoned_far_mean",
+   "label": "Zoned FAR",
+   "category": "material_wellbeing",
+   "description": "How much building the zoning allows, on average: floor area per square foot of land.",
+   "source": "zonewise",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "zoned_manufacturing_pct",
+   "label": "Manufacturing Zoning",
+   "category": "physical_environment",
+   "description": "Share of the area's zoned land set aside for industry.",
+   "source": "zonewise",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "zoned_multifamily_pct",
+   "label": "Multifamily Zoning",
+   "category": "material_wellbeing",
+   "description": "Share of the area's zoned land in residential districts that allow two-flats, townhouses and apartment buildings.",
+   "source": "zonewise",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "zoned_planned_development_pct",
+   "label": "Planned Developments",
+   "category": "good_governance",
+   "description": "Share of the area's zoned land under a Planned Development, rules negotiated for one large project.",
+   "source": "zonewise",
+   "nominator_first_name": ""
+  },
+  {
+   "metric_id": "zoned_single_family_only_pct",
+   "label": "Single-Family Zoning",
+   "category": "material_wellbeing",
+   "description": "Share of the area's zoned land where only houses may be built, no apartment buildings.",
+   "source": "zonewise",
+   "nominator_first_name": ""
+  }
+ ],
+ "pages": [
+  {
+   "path": "/map",
+   "label": "Map view",
+   "blurb": "Every ward or neighborhood shaded by a list of measures, with a leaderboard."
+  },
+  {
+   "path": "/for/residents",
+   "label": "Ward report card",
+   "blurb": "Ten measures to hold an alderperson to, ranked against all 50 wards, plus what's in front of City Council."
+  },
+  {
+   "path": "/alerts",
+   "label": "Ward alerts",
+   "blurb": "Legislation, hearings and permits for one ward, as the email a subscriber would get."
+  },
+  {
+   "path": "/survey",
+   "label": "My index",
+   "blurb": "Answer a short survey and get a personal index to read the city through."
+  },
+  {
+   "path": "/near",
+   "label": "Metrics near you",
+   "blurb": "What the measures say about the blocks around one address."
+  },
+  {
+   "path": "/index",
+   "label": "Index of fifty",
+   "blurb": "All fifty wards ranked on a list, each with its domain bloom."
+  },
+  {
+   "path": "/menu",
+   "label": "Menu money",
+   "blurb": "Where each ward office spends its discretionary infrastructure budget."
+  },
+  {
+   "path": "/menu/prices",
+   "label": "Infrastructure menu prices",
+   "blurb": "What each menu item costs a ward, with the source of every price."
+  },
+  {
+   "path": "/menu/costs",
+   "label": "What wards paid for projects",
+   "blurb": "How much each kind of menu project actually cost: counts, spread, cheapest and priciest, by year and ward."
+  },
+  {
+   "path": "/for/planning",
+   "label": "Planners and community groups",
+   "blurb": "Every measure as a CSV for all 50 wards or 77 community areas."
+  },
+  {
+   "path": "/for/business",
+   "label": "Local businesses",
+   "blurb": "Income, rent, commuting and the business mix for any community area, in one printable page."
+  },
+  {
+   "path": "/report",
+   "label": "Full report",
+   "blurb": "One ward, neighborhood or χGRID in full: standing, strongest and weakest measures, rank over time, what changed, and every domain."
+  },
+  {
+   "path": "/compare",
+   "label": "Compare areas",
+   "blurb": "Two places side by side on the same list of measures."
+  },
+  {
+   "path": "/reports/term",
+   "label": "Term report",
+   "blurb": "Every alderperson's ward on two measures across one term, scored on the ward map that term actually used."
+  },
+  {
+   "path": "/reports/relationship",
+   "label": "Metric relationship",
+   "blurb": "Any two measures side by side, and whether the record of how they move over time points to one driving the other."
+  },
+  {
+   "path": "/reports/drivers",
+   "label": "Driver analysis",
+   "blurb": "What tends to move before a measure: candidate drivers, graded by the evidence."
+  },
+  {
+   "path": "/reports/impact",
+   "label": "Impact analysis",
+   "blurb": "What tends to move after a measure changes: candidate effects, graded by the evidence."
+  },
+  {
+   "path": "/reports/deep-dive",
+   "label": "Metric deep dive",
+   "blurb": "One measure ranked across every area, and which other measures move with it."
+  },
+  {
+   "path": "/reports/methodology",
+   "label": "How the evidence works",
+   "blurb": "Every over-time check behind the relationship, driver and impact reports: the formulas, the thresholds, the significance tests and their limits."
+  },
+  {
+   "path": "/dictionary",
+   "label": "Metric dictionary",
+   "blurb": "Every measure Ward Wise tracks — what it means, where it comes from, how it's computed."
+  },
+  {
+   "path": "/reports/data-years",
+   "label": "Data years",
+   "blurb": "Which years each measure actually covers, and how directly it was measured."
+  },
+  {
+   "path": "/data-notes",
+   "label": "Data notes",
+   "blurb": "Caveats and seams in the sources, dataset by dataset."
+  },
+  {
+   "path": "/api-docs",
+   "label": "API docs",
+   "blurb": "Read the same numbers programmatically."
+  }
+ ],
+ "sha256": "9031362c8753cd51b1f942f1d96d1a33fa2e838f741206e515865576e1442c7d"
+}
