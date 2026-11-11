@@ -1,7 +1,7 @@
 # Seed preview
 
 Dry run of `scripts/seed_backlog_from_doc.py` on 2026-11-11. Nothing has been posted.
-Catalog: 316 live measures from https://www.wardwise.org/api/metrics and 23 public pages (fetched 2026-11-11T01:35:24+00:00).
+Catalog: 316 live measures from https://www.wardwise.org/api/metrics and 23 public pages (fetched 2026-11-11T04:24:37+00:00).
 Matching: gpt-6-luna (reasoning effort high), 12 calls, recorded cost $0.0195. Every match below is the model's call, checked only for ids that exist. Review the statuses before running `--create`.
 
 **72 ideas: 16 live (no issue), 46 partial, 10 new.** `--create` would open 56 issues.

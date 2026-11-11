@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-11T01:35:24+00:00",
+ "generated_at": "2026-11-11T04:24:37+00:00",
  "model": "gpt-6-luna",
  "reasoning_effort": "high",
  "catalog": {
   "sha256": "9031362c8753cd51b1f942f1d96d1a33fa2e838f741206e515865576e1442c7d",
-  "fetched_at": "2026-11-11T01:35:24+00:00",
+  "fetched_at": "2026-11-11T04:24:37+00:00",
   "measures": 316,
   "pages": 23
  },
@@ -61,7 +61,8 @@
     "domain:psychological_wellbeing",
     "needs-data",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/1"
   },
   {
    "section": "psychological_wellbeing",
@@ -107,7 +108,8 @@
     "open",
     "domain:psychological_wellbeing",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/2"
   },
   {
    "section": "psychological_wellbeing",
@@ -147,7 +149,8 @@
     "domain:psychological_wellbeing",
     "needs-data",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/3"
   },
   {
    "section": "psychological_wellbeing",
@@ -228,7 +231,8 @@
     "domain:psychological_wellbeing",
     "needs-data",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/4"
   },
   {
    "section": "psychological_wellbeing",
@@ -258,7 +262,8 @@
     "domain:psychological_wellbeing",
     "needs-data",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/5"
   },
   {
    "section": "social_connectedness",
@@ -314,7 +319,8 @@
     "measure-idea",
     "open",
     "domain:social_connectedness"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/6"
   },
   {
    "section": "social_connectedness",
@@ -431,7 +437,8 @@
     "open",
     "domain:social_connectedness",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/7"
   },
   {
    "section": "social_connectedness",
@@ -462,7 +469,8 @@
     "open",
     "domain:social_connectedness",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/8"
   },
   {
    "section": "social_connectedness",
@@ -488,7 +496,8 @@
     "measure-idea",
     "open",
     "domain:social_connectedness"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/9"
   },
   {
    "section": "social_connectedness",
@@ -521,7 +530,8 @@
     "domain:social_connectedness",
     "needs-data",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/10"
   },
   {
    "section": "material_wellbeing",
@@ -579,7 +589,8 @@
     "domain:material_wellbeing",
     "needs-data",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/11"
   },
   {
    "section": "material_wellbeing",
@@ -639,7 +650,8 @@
     "domain:material_wellbeing",
     "needs-data",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/12"
   },
   {
    "section": "material_wellbeing",
@@ -666,7 +678,8 @@
     "open",
     "domain:material_wellbeing",
     "needs-data"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/13"
   },
   {
    "section": "material_wellbeing",
@@ -693,7 +706,8 @@
     "open",
     "domain:material_wellbeing",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/14"
   },
   {
    "section": "material_wellbeing",
@@ -724,7 +738,8 @@
     "open",
     "domain:material_wellbeing",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/15"
   },
   {
    "section": "material_wellbeing",
@@ -757,7 +772,8 @@
     "domain:material_wellbeing",
     "needs-data",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/16"
   },
   {
    "section": "material_wellbeing",
@@ -790,7 +806,8 @@
     "measure-idea",
     "open",
     "domain:material_wellbeing"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/17"
   },
   {
    "section": "material_wellbeing",
@@ -818,7 +835,8 @@
     "domain:material_wellbeing",
     "needs-data",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/18"
   },
   {
    "section": "material_wellbeing",
@@ -850,7 +868,8 @@
     "open",
     "domain:material_wellbeing",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/19"
   },
   {
    "section": "material_wellbeing",
@@ -886,7 +905,8 @@
     "open",
     "domain:material_wellbeing",
     "good first issue"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/20"
   },
   {
    "section": "material_wellbeing",
@@ -917,7 +937,8 @@
     "open",
     "domain:material_wellbeing",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/21"
   },
   {
    "section": "health",
@@ -974,7 +995,8 @@
     "open",
     "domain:health",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/22"
   },
   {
    "section": "health",
@@ -1033,7 +1055,8 @@
     "domain:time_balance",
     "needs-data",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/23"
   },
   {
    "section": "time_balance",
@@ -1092,7 +1115,8 @@
     "open",
     "domain:time_balance",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/24"
   },
   {
    "section": "religion_spiritual",
@@ -1152,7 +1176,8 @@
     "domain:religion_spiritual",
     "needs-data",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/25"
   },
   {
    "section": "religion_spiritual",
@@ -1187,7 +1212,8 @@
     "open",
     "domain:religion_spiritual",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/26"
   },
   {
    "section": "religion_spiritual",
@@ -1223,7 +1249,8 @@
     "open",
     "domain:religion_spiritual",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/27"
   },
   {
    "section": "lifelong_learning",
@@ -1252,7 +1279,8 @@
     "open",
     "domain:lifelong_learning",
     "good first issue"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/28"
   },
   {
    "section": "lifelong_learning",
@@ -1283,7 +1311,8 @@
     "open",
     "domain:lifelong_learning",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/29"
   },
   {
    "section": "lifelong_learning",
@@ -1311,7 +1340,8 @@
     "measure-idea",
     "open",
     "domain:lifelong_learning"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/30"
   },
   {
    "section": "good_governance",
@@ -1376,7 +1406,8 @@
     "measure-idea",
     "open",
     "domain:good_governance"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/31"
   },
   {
    "section": "good_governance",
@@ -1439,7 +1470,8 @@
     "open",
     "domain:good_governance",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/32"
   },
   {
    "section": "good_governance",
@@ -1475,7 +1507,8 @@
     "open",
     "domain:good_governance",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/33"
   },
   {
    "section": "good_governance",
@@ -1506,7 +1539,8 @@
     "open",
     "domain:good_governance",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/34"
   },
   {
    "section": "community_vitality",
@@ -1539,7 +1573,8 @@
     "open",
     "domain:community_vitality",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/35"
   },
   {
    "section": "community_vitality",
@@ -1565,7 +1600,8 @@
     "measure-idea",
     "open",
     "domain:community_vitality"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/36"
   },
   {
    "section": "community_vitality",
@@ -1593,7 +1629,8 @@
     "domain:community_vitality",
     "needs-data",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/37"
   },
   {
    "section": "community_vitality",
@@ -1624,7 +1661,8 @@
     "open",
     "domain:community_vitality",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/38"
   },
   {
    "section": "community_vitality",
@@ -1653,7 +1691,8 @@
     "measure-idea",
     "open",
     "domain:community_vitality"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/39"
   },
   {
    "section": "community_vitality",
@@ -1688,7 +1727,8 @@
     "domain:community_vitality",
     "needs-data",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/40"
   },
   {
    "section": "community_vitality",
@@ -1723,7 +1763,8 @@
     "measure-idea",
     "open",
     "domain:community_vitality"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/41"
   },
   {
    "section": "community_vitality",
@@ -1758,7 +1799,8 @@
     "domain:community_vitality",
     "needs-data",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/42"
   },
   {
    "section": "community_vitality",
@@ -1793,7 +1835,8 @@
     "domain:community_vitality",
     "needs-data",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/43"
   },
   {
    "section": "community_vitality",
@@ -1821,7 +1864,8 @@
     "domain:community_vitality",
     "needs-data",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/44"
   },
   {
    "section": "community_vitality",
@@ -1847,7 +1891,8 @@
     "measure-idea",
     "open",
     "domain:community_vitality"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/45"
   },
   {
    "section": "community_vitality",
@@ -1876,7 +1921,8 @@
     "open",
     "domain:community_vitality",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/46"
   },
   {
    "section": "community_vitality",
@@ -1907,7 +1953,8 @@
     "open",
     "domain:community_vitality",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/47"
   },
   {
    "section": "community_vitality",
@@ -1939,7 +1986,8 @@
     "measure-idea",
     "open",
     "domain:community_vitality"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/48"
   },
   {
    "section": "physical_environment",
@@ -1997,7 +2045,8 @@
     "open",
     "domain:physical_environment",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/49"
   },
   {
    "section": "physical_environment",
@@ -2026,7 +2075,8 @@
     "measure-idea",
     "open",
     "domain:physical_environment"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/50"
   },
   {
    "section": "physical_environment",
@@ -2055,7 +2105,8 @@
     "open",
     "domain:physical_environment",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/51"
   },
   {
    "section": "physical_environment",
@@ -2219,7 +2270,8 @@
     "open",
     "domain:culture",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/52"
   },
   {
    "section": "culture",
@@ -2248,7 +2300,8 @@
     "open",
     "domain:culture",
     "expert-wanted"
-   ]
+   ],
+   "issue_url": "https://github.com/ward-wise/ideas/issues/53"
   },
   {
    "section": "views",
